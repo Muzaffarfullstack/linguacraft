@@ -22,11 +22,7 @@ function Feedback() {
                 data-aos="fade-right"
               >
                 <div>
-                  <img
-                    src={data.testimonials[0].image}
-                    alt=""
-                    className="main-image"
-                  />
+                  <img src="/assets/person.png" alt="" className="main-image" />
                 </div>
                 <div>
                   <img
