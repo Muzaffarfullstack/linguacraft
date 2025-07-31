@@ -106,10 +106,9 @@ function Quiz() {
                             type="radio"
                             value={option}
                             name={`question-${currentIndex}`}
-                            // onChange={}
                           />
                           <span>{alphabet}</span>
-                          {option}
+                          <p> {option}</p>
                           <img
                             src="../../public/assets/check-mark.png"
                             alt="checkbox"
