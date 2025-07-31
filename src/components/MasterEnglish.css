@@ -1,7 +1,7 @@
 .main-container {
   background: #f3f7fc;
-  padding: 7rem 0;
-  min-height: 100vh;
+  padding-top: 7rem;
+  /* min-height: 100vh; */
 }
 
 .master-english {
@@ -142,6 +142,9 @@ figure img {
 @media screen and (max-width: 480px) {
   .master-english {
     flex-direction: column;
+  }
+  .english-container {
+    width: 100%;
   }
   .english-text h1 {
     font-size: 2rem;
