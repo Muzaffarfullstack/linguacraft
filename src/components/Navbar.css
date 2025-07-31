@@ -85,8 +85,7 @@ li {
     /* blue */ 0 8px 30px rgba(147, 51, 234, 0.25);
 }
 @media screen and (max-width: 480px) {
-  nav ul,
-  .register {
+  nav ul {
     display: none;
   }
   nav {

@@ -45,3 +45,8 @@
     transform: translateX(-300px);
   }
 }
+@media only screen and (max-width: 480px) {
+  .trust-section {
+    width: 100%;
+  }
+}
