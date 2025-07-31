@@ -9,7 +9,7 @@ function Quiz() {
     data: questions,
     isPending,
     error,
-  } = useFetch("/public/data/questions.json");
+  } = useFetch("/data/questions.json");
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState("");
