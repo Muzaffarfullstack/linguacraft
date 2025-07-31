@@ -1,10 +1,7 @@
 import "./Reason.css";
 import "../index.css";
-// import { useFetch } from "../hooks/useFetch";
 
 function Reason() {
-  //   const { data, isPending, error } = useFetch("/data/db.json");
-  //   console.log(data);
   return (
     <div className=" reason-container">
       <div className=" container reason-section">

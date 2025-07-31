@@ -3,19 +3,12 @@ import "aos/dist/aos.css";
 
 import "./MasterEnglish.css";
 import "../index.css";
-// import { useFetch } from "../hooks/useFetch";
 import { useEffect } from "react";
 
 function MasterEnglish() {
   useEffect(() => {
     Aos.init({ duration: 800, easing: "ease-in-out", once: false });
   }, []);
-
-  // const {
-  //   data: features,
-  //   isPending,
-  //   error,
-  // } = useFetch("http://localhost:3000/features");
 
   return (
     <div className="main-container">
