@@ -22,25 +22,25 @@ function Feedback() {
                 data-aos="fade-right"
               >
                 <div>
-                  <img
+                  {/* <img
                     src={data.testimonials[0].image}
                     alt=""
                     className="main-image"
-                  />
+                  /> */}
                 </div>
                 <div>
-                  <img
+                  {/* <img
                     src="../../public/assets/stars.png"
                     alt=""
                     className="rating-image"
-                  />
+                  /> */}
                   <p>{data.testimonials[0].text}</p>
                   <h1>{data.testimonials[0].name}</h1>
-                  <img
+                  {/* <img
                     src="../../public/assets/location-1.png"
                     alt=""
                     className="location-image"
-                  />
+                  /> */}
                   <span>{data.testimonials[0].location}</span>
                 </div>
               </div>
@@ -52,26 +52,26 @@ function Feedback() {
                     data-aos="fade-left"
                   >
                     <div className="side-card-header">
-                      <img
+                      {/* <img
                         src={data.testimonials[0].image}
                         alt="logo"
                         className="side-person"
-                      />
+                      /> */}
                       <div>
                         <h1>{item.name}</h1>
-                        <img
+                        {/* <img
                           src="../../public/assets/location-1.png"
                           alt=""
                           className="location-image"
-                        />
+                        /> */}
                         <span>{item.location}</span>
                       </div>
                     </div>
-                    <img
+                    {/* <img
                       src="../../public/assets/stars.png"
                       alt=""
                       className="rating-image-2"
-                    />
+                    /> */}
                     <p>{item.text}</p>
                   </div>
                 ))}
