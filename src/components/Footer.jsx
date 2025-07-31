@@ -17,10 +17,10 @@ function Footer() {
             confidence and community support.
           </p>
           <div className="social-media">
-            <img src="../../public/assets/facebook.png" alt="" />
-            <img src="../../public/assets/twitter.png" alt="" />
-            <img src="../../public/assets/instagram.png" alt="" />
-            <img src="../../public/assets/youtube.png" alt="" />
+            {/* <img src="../../public/assets/facebook.png" alt="" /> */}
+            {/* <img src="../../public/assets/twitter.png" alt="" /> */}
+            {/* <img src="../../public/assets/instagram.png" alt="" /> */}
+            {/* <img src="../../public/assets/youtube.png" alt="" /> */}
           </div>
         </div>
 
@@ -45,17 +45,17 @@ function Footer() {
         <div className="footer-1">
           <h2>Contact</h2>
           <div className="contact-card">
-            <img src="../../public/assets/mail.png" alt="" />
+            {/* <img src="../../public/assets/mail.png" alt="" /> */}
             <p>help.linguacraft@gmail.com</p>
           </div>
 
           <div className="contact-card">
-            <img src="../../public/assets/call.png" alt="" />
+            {/* <img src="../../public/assets/call.png" alt="" /> */}
             <p>+371 (2) 781-97-22</p>
           </div>
 
           <div className="contact-card">
-            <img src="../../public/assets/globe-2.png" alt="" />
+            {/* <img src="../../public/assets/globe-2.png" alt="" /> */}
             <p>Available 24/7</p>
           </div>
         </div>
