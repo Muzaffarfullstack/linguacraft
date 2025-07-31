@@ -151,25 +151,25 @@
   "stats": [
     {
       "id": 26,
-      "image": "../public/assets/colorfull-user.png",
+      "image": "/assets/colorfull-user.png",
       "title": "Active Learners",
       "value": "50K+"
     },
     {
       "id": 27,
-      "image": "../public/assets/colorfull-chat.png",
+      "image": "/assets/colorfull-chat.png",
       "title": "Conversations",
       "value": "1M+"
     },
     {
       "id": 28,
-      "image": "../public/assets/globe.png",
+      "image": "/assets/globe.png",
       "title": "Countries",
       "value": "120+"
     },
     {
       "id": 29,
-      "image": "../public/assets/colorfull-star.png",
+      "image": "/assets/colorfull-star.png",
       "title": "Average Rating",
       "value": "4.9"
     }
