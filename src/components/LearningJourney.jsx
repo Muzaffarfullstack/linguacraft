@@ -13,7 +13,7 @@ function LearningJourney() {
           <div className="journey-card">
             <div className="journey-number">01</div>
             <div className="inner-card">
-              <img src="../../public/assets/brain-organ.png" alt="" />
+              {/* <img src="../../public/assets/brain-organ.png" alt="" /> */}
               <h3>Choose Your Level</h3>
               <p>Take our assessment to find your starting point</p>
             </div>
@@ -24,7 +24,7 @@ function LearningJourney() {
           <div className="journey-card">
             <div className="journey-number">02</div>
             <div className="inner-card">
-              <img src="../../public/assets/clock.png" alt="" />
+              {/* <img src="../../public/assets/clock.png" alt="" /> */}
               <h3>Daily Learning Plan</h3>
               <p>Get personalized lessons that fit your schedule</p>
             </div>
@@ -35,7 +35,7 @@ function LearningJourney() {
           <div className="journey-card">
             <div className="journey-number">03</div>
             <div className="inner-card">
-              <img src="../../public/assets/users.png" alt="" />
+              {/* <img src="../../public/assets/users.png" alt="" /> */}
               <h3>Practice & Community</h3>
               <p>Apply skills with real conversations and feedback</p>
             </div>
@@ -46,7 +46,7 @@ function LearningJourney() {
           <div className="journey-card">
             <p className="journey-number">04</p>
             <div className="inner-card">
-              <img src="../../public/assets/award.png" alt="" />
+              {/* <img src="../../public/assets/award.png" alt="" /> */}
               <h3>Certification & Goals</h3>
               <p>Earn certificates and achieve your language goals</p>
             </div>
