@@ -16,7 +16,7 @@ function Result({ score, total, onRestart }) {
         <p className="score">
           You got {score} out of {total}
         </p>
-        <p>
+        <p className="result">
           Based on your answers, we recommend you starting with our Intermediate
           course
         </p>

@@ -73,3 +73,14 @@
   margin: 10px;
   color: #000000;
 }
+
+@media only screen and (max-width: 480px) {
+  .result-section span {
+    font-size: 20px;
+    white-space: nowrap;
+    margin-left: 10px;
+  }
+  .result {
+    line-height: 30px;
+  }
+}
