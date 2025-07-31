@@ -69,7 +69,7 @@ function Quiz() {
               }}
             ></div>
           </div>
-          <img src="../../public/assets/gray-timer.png" alt="timer" />
+          {/* <img src="../../public/assets/gray-timer.png" alt="timer" /> */}
         </div>
         <div className="quiz-main">
           {isPending && <p>Loading...</p>}
