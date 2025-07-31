@@ -5,7 +5,11 @@ import { useState } from "react";
 import Result from "./Result";
 
 function Quiz() {
-  const { data: questions, isPending, error } = useFetch("data/questions.json");
+  const {
+    data: questions,
+    isPending,
+    error,
+  } = useFetch("/public/data/questions.json");
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState("");
