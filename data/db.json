@@ -1,0 +1,182 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "title": "Interactive Lessons",
+      "description": "Engaging content that adapts to your pace",
+      "icon": "/public/assets/new.png"
+    },
+    {
+      "id": 2,
+      "title": "Track Progress",
+      "description": "See your improvement in real-time",
+      "icon": "/public/assets/trophy.png"
+    },
+    {
+      "id": 3,
+      "title": "Live Community",
+      "description": "Practice with native speakers worldwide",
+      "icon": "/public/assets/user.png"
+    },
+    {
+      "id": 4,
+      "title": "Personalized Goals",
+      "description": "Achieve milestones at your own pace",
+      "icon": "/public/assets/goal.png"
+    }
+  ],
+  "carouselItems": [
+    {
+      "id": 5,
+      "title": "Daily Practice"
+    },
+    {
+      "id": 6,
+      "title": "Goal Tracking"
+    },
+    {
+      "id": 7,
+      "title": "Certificates"
+    },
+    {
+      "id": 8,
+      "title": "Speaking Club"
+    },
+    {
+      "id": 9,
+      "title": "Grammar Games"
+    },
+    {
+      "id": 10,
+      "title": "Vocabulary Builder"
+    },
+    {
+      "id": 11,
+      "title": "Audio Practice"
+    },
+    {
+      "id": 12,
+      "title": "Interactive Lessons"
+    },
+    {
+      "id": 13,
+      "title": "Progress Analytics"
+    },
+    {
+      "id": 14,
+      "title": "Live Community"
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": 15,
+      "title": "Beginner",
+      "level": "A1-A2 Level",
+      "progress": 85,
+      "videoUrl": "https://www.youtube.com/watch?v=beginner-demo"
+    },
+    {
+      "id": 16,
+      "title": "Intermediate",
+      "level": "B1-B2 Level",
+      "progress": 70,
+      "videoUrl": "https://www.youtube.com/watch?v=intermediate-demo"
+    },
+    {
+      "id": 17,
+      "title": "Business English",
+      "level": "Professional",
+      "progress": 60,
+      "videoUrl": "https://www.youtube.com/watch?v=business-demo"
+    },
+    {
+      "id": 18,
+      "title": "IELTS Prep",
+      "level": "Test Ready",
+      "progress": 90,
+      "videoUrl": "https://www.youtube.com/watch?v=ielts-demo"
+    }
+  ],
+  "learningSteps": [
+    {
+      "id": 19,
+      "step": "Choose Your Level",
+      "description": "Take our assessment to find your starting point"
+    },
+    {
+      "id": 20,
+      "step": "Daily Learning Plan",
+      "description": "Get personalized lessons that fit your schedule"
+    },
+    {
+      "id": 21,
+      "step": "Practice & Community",
+      "description": "Apply skills with real conversations and feedback"
+    },
+    {
+      "id": 22,
+      "step": "Certification & Goals",
+      "description": "Earn certificates and achieve your language goals"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 23,
+      "image": "../public/assets/person.png",
+      "name": "Maria Rodriguez",
+      "location": "Madrid, Spain",
+      "rating": 5.0,
+      "text": "LinguaCraft completely transformed my English learning experience. The community support and interactive lessons made me confident enough to get my dream job in London!",
+      "videoUrl": "https://www.youtube.com/watch?v=maria-feedback"
+    },
+    {
+      "id": 24,
+      "image": "../public/assets/person.png",
+      "name": "Ahmed Hassan",
+      "location": "Cairo, Egypt",
+      "rating": 5.0,
+      "text": "The speaking practice sessions helped me overcome my fear of conversation.",
+      "videoUrl": "https://www.youtube.com/watch?v=ahmed-feedback"
+    },
+    {
+      "id": 25,
+      "image": "../public/assets/person.png",
+      "name": "Yuki Tanaka",
+      "location": "Tokyo, Japan",
+      "rating": 5.5,
+      "text": "Perfect for busy professionals. I improved my business English in just 3 months!",
+      "videoUrl": "https://www.youtube.com/watch?v=yuki-feedback"
+    }
+  ],
+  "stats": [
+    {
+      "id": 26,
+      "image": "../public/assets/colorfull-user.png",
+      "title": "Active Learners",
+      "value": "50K+"
+    },
+    {
+      "id": 27,
+      "image": "../public/assets/colorfull-chat.png",
+      "title": "Conversations",
+      "value": "1M+"
+    },
+    {
+      "id": 28,
+      "image": "../public/assets/globe.png",
+      "title": "Countries",
+      "value": "120+"
+    },
+    {
+      "id": 29,
+      "image": "../public/assets/colorfull-star.png",
+      "title": "Average Rating",
+      "value": "4.9"
+    }
+  ],
+  "demoVideo": {
+    "title": "See How It Works",
+    "description": "Watch our 2-minute demo video",
+    "url": "https://www.youtube.com/watch?v=platform-demo"
+  }
+}

@@ -1,0 +1,107 @@
+.feedback-container {
+  padding: 50px;
+  background: linear-gradient(to right, #111827, #1e3a8a, #581c87);
+  width: 100vw;
+}
+.feedback-text {
+  text-align: center;
+}
+.feedback-text h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.feedback-text p {
+  font-size: 25px;
+  color: #dbeafe;
+  margin-bottom: 10px;
+}
+.testimonial-card {
+  margin: 10px;
+}
+.testimonial-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.card-large {
+  flex: 2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 700px;
+  display: flex;
+  gap: 40px;
+  background: #ffffff1a;
+}
+.main-image {
+  width: 60px;
+  background: #e5e7eb;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 60px;
+  margin-left: 10px;
+}
+.rating-image {
+  width: 80px;
+  margin: -25px 0;
+}
+.rating-image-2 {
+  width: 80px;
+  margin: -25px 18px;
+}
+.location-image {
+  width: 18px;
+  margin: 10px 10px 0px 5px;
+}
+.card-large h1 {
+  font-size: 30px;
+  color: #fff;
+}
+.card-large span,
+.side-card-header span {
+  font-size: 20px;
+  color: #bfdbfe;
+  margin-bottom: 10px;
+}
+.card-large p {
+  line-clamp: 3;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.side-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-card {
+  flex: 1;
+  border-radius: 10px;
+  background: #ffffff1a;
+  padding: 10px;
+  margin-left: 15px;
+}
+.side-person {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  background: #e5e7eb;
+  padding: 7px;
+  border-radius: 60px;
+}
+.side-card-header {
+  display: flex;
+}
+.side-card-header h1 {
+  font-size: 30px;
+  color: #fff;
+}
+.side-card p {
+  line-clamp: 3;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin: 10px 15px;
+}

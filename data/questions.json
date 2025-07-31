@@ -1,0 +1,79 @@
+{
+  "quizQuestions": [
+    {
+      "id": 1,
+      "question": "Choose the correct sentence:",
+      "options": [
+        "He go to school every day.",
+        "He goes to school every day.",
+        "He going to school every day.",
+        "He is goes to school every day."
+      ],
+      "answer": "He goes to school every day."
+    },
+    {
+      "id": 2,
+      "question": "What is the past form of 'buy'?",
+      "options": ["buyed", "buys", "bought", "buying"],
+      "answer": "bought"
+    },
+    {
+      "id": 3,
+      "question": "Which word is an adjective?",
+      "options": ["Quickly", "Happiness", "Quick", "Run"],
+      "answer": "Quick"
+    },
+    {
+      "id": 4,
+      "question": "Fill in the blank: She _____ in London last year.",
+      "options": ["live", "lives", "lived", "living"],
+      "answer": "lived"
+    },
+    {
+      "id": 5,
+      "question": "Choose the correct question:",
+      "options": [
+        "Where you live?",
+        "Where do you live?",
+        "Where you does live?",
+        "Where live you?"
+      ],
+      "answer": "Where do you live?"
+    },
+    {
+      "id": 6,
+      "question": "Select the synonym of 'happy':",
+      "options": ["Sad", "Joyful", "Angry", "Tired"],
+      "answer": "Joyful"
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct option: I have never _____ to Japan.",
+      "options": ["been", "be", "was", "being"],
+      "answer": "been"
+    },
+    {
+      "id": 8,
+      "question": "Which is a correct conditional sentence?",
+      "options": [
+        "If it rains, I will stay home.",
+        "If it will rain, I stay home.",
+        "If it raining, I will stay home.",
+        "If it rain, I will stays home."
+      ],
+      "answer": "If it rains, I will stay home."
+    },
+    {
+      "id": 9,
+      "question": "Choose the correct preposition: He is interested _____ learning English.",
+      "options": ["on", "about", "in", "at"],
+      "answer": "in"
+    },
+    {
+      "id": 10,
+      "question": "Find the correct comparative form: This book is _____ than that one.",
+      "options": ["good", "gooder", "better", "best"],
+      "answer": "better"
+    }
+  ]
+}

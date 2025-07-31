@@ -1,0 +1,83 @@
+.reason-container {
+  width: 100%;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+}
+.reason-section {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.reason-text h1 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.reason-card {
+  display: flex;
+  margin: 20px 0;
+}
+
+.reason-card img {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: #ffffff33;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.card-text h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.card-text p {
+  color: #dbeafe;
+}
+.reason-video {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff1a;
+  margin-top: 30px;
+}
+.reason-details {
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 15px;
+}
+.reason-video img {
+  width: 75px;
+  position: absolute;
+  right: 27.4%;
+  margin-top: 10px;
+  height: 75px;
+  border-radius: 40px;
+  padding: 10px;
+  cursor: pointer;
+  background: #ffffff33;
+  transition: all 0.3s ease;
+}
+.reason-details h1 {
+  font-size: 24px;
+  color: #fff;
+}
+.reason-details p {
+  color: #dbeafe;
+}
+.reason-video button {
+  padding: 10px 80px;
+  border-radius: 10px;
+  width: 450px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  background: #ffffff33;
+  transition: all 0.3s ease;
+}
+.reason-video button:hover,
+.reason-video img:hover {
+  background: #d6caca33;
+}

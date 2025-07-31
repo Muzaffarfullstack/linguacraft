@@ -1,0 +1,114 @@
+.learning-path {
+  /* padding: 50px; */
+  width: 100vw;
+}
+.path-text {
+  text-align: center;
+  margin-bottom: 1.87rem;
+}
+.path-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+  color: #1f2937;
+  font-weight: 600;
+}
+.path-text p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+.path-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.87rem;
+}
+
+.path-card figure > img {
+  padding: 0.93rem;
+  width: 3.75rem;
+  border-radius: 0.625rem;
+  margin-bottom: 1.87rem;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+}
+.path-cards .path-card:nth-child(1) figure img {
+  background: linear-gradient(to right, #4ade80, #3b82f6);
+}
+.path-cards .path-card:nth-child(2) figure img {
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+}
+.path-cards .path-card:nth-child(3) figure img {
+  background: linear-gradient(to right, #c084fc, #ec4899);
+}
+.path-cards .path-card:nth-child(4) figure img {
+  background: linear-gradient(to right, #f472b6, #ef4444);
+}
+.path-card {
+  padding: 1.25rem;
+  width: 18.75rem;
+  height: 15.62rem;
+  border-radius: 0.93rem;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.05), 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.path-card h3 {
+  color: #1f2937;
+  margin-bottom: 0.93rem;
+  font-size: 1.375rem;
+}
+.path-card p {
+  color: #4b5563;
+  font-size: 1.187rem;
+  margin-bottom: 0.93rem;
+}
+.progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+.progress > :nth-child(1) {
+  color: #4b5563;
+}
+.progress-bar > :nth-child(1) {
+  content: "";
+  width: 100%;
+  height: 0.625rem;
+  background-color: #e5e7eb;
+  border-radius: 5px;
+}
+.progress-bar div > div {
+  content: "";
+  width: 40%;
+  height: 0.625rem;
+  border-radius: 5px;
+  z-index: 100;
+}
+.path-cards .path-card:nth-child(1) .progress-bar > div > div {
+  background: linear-gradient(to right, #4ade80, #3b82f6);
+}
+.path-cards .path-card:nth-child(2) .progress-bar > div > div {
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+  width: 70%;
+}
+.path-cards .path-card:nth-child(3) .progress-bar > div > div {
+  background: linear-gradient(to right, #c084fc, #ec4899);
+  width: 90%;
+}
+.path-cards .path-card:nth-child(4) .progress-bar > div > div {
+  background: linear-gradient(to right, #f472b6, #ef4444);
+  width: 55%;
+}
+/* hover move */
+.path-card:hover {
+  transform: scale(1.1);
+}
+.path-card:hover img {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px) {
+  .path-cards {
+    flex-direction: column;
+    margin: 0.625rem;
+  }
+}

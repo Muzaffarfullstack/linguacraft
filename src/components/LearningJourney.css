@@ -1,0 +1,125 @@
+.journey-container {
+  padding: 3.125rem;
+}
+.journey-text {
+  margin: 1.25rem;
+  padding: 1.25rem;
+  align-items: flex-end;
+}
+.journey-wrapper {
+  width: 100vw;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+}
+.journey-text h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 0.625rem;
+  text-align: center;
+}
+.journey-text p {
+  font-size: 1.25rem;
+  color: #dbeafe;
+  text-align: center;
+}
+.journey-cards {
+  margin-top: 3.125rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.journey-card {
+  padding: 0.93rem;
+  height: 25rem;
+  transition: all 0.5s ease;
+}
+.journey-number {
+  border: 2px solid #fff;
+  background: #ffffff1a;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.87rem;
+  padding-top: 1.25rem;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 32%;
+}
+.inner-card {
+  margin-top: 0.93rem;
+  padding: 0.93rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  background: #ffffff1a;
+  transition: all 0.2s ease;
+  width: 16.87rem;
+  height: 11.25rem;
+}
+.inner-card img {
+  width: 4.375rem;
+  text-align: center;
+  padding: 0.93rem;
+}
+.inner-card h3 {
+  white-space: nowrap;
+  color: #fff;
+  font-size: 1.37rem;
+  margin-bottom: 0.625rem;
+}
+.inner-card p {
+  color: #dbeafe;
+  font-size: 1.125rem;
+  line-height: 1.56rem;
+}
+.journey-card:hover {
+  transform: scale(1.1);
+  /* background: #9e9d9d1a; */
+}
+.journey-progress {
+  content: "";
+  width: 100%;
+  background: #ffffff1a;
+  height: 5px;
+  margin-top: 1.93rem;
+  border-radius: 1.25rem;
+}
+.journey-progress > div {
+  content: "";
+  background: #fff;
+  height: 6px;
+  border-radius: 1.25rem;
+}
+.journey-cards :nth-child(1) .journey-progress > div {
+  width: 35%;
+}
+.journey-cards :nth-child(2) .journey-progress > div {
+  width: 50%;
+}
+.journey-cards :nth-child(3) .journey-progress > div {
+  width: 70%;
+}
+.journey-cards :nth-child(4) .journey-progress > div {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .journey-text h1 {
+    position: relative;
+    right: 10%;
+    font-size: 25px;
+    white-space: nowrap;
+  }
+  .journey-text p {
+    position: relative;
+    right: 10%;
+    width: 15.62rem;
+  }
+  .journey-cards {
+    flex-direction: column;
+  }
+  .journey-card {
+    margin: 0.625rem 0;
+  }
+  .journey-number {
+    margin-left: 0.93rem;
+  }
+}

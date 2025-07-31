@@ -1,0 +1,33 @@
+.stats-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 40px;
+}
+.stats-wrapper {
+  background: linear-gradient(to right, #111827, #1e3a8a, #581c87);
+  width: 100vw;
+}
+
+.stats-cards img {
+  width: 32px;
+  height: 32px;
+  margin: 10px 0;
+}
+.stats-cards {
+  width: 330px;
+  height: 165px;
+  text-align: center;
+  padding: 18px 65px;
+  white-space: nowrap;
+  border-radius: 20px;
+  background: #ffffff1a;
+}
+.stats-cards h1 {
+  color: #fff;
+  margin: 10px 0;
+}
+.stats-cards p {
+  color: #bfdbfe;
+  font-size: 18px;
+}
