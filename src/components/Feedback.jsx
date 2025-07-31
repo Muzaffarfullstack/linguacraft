@@ -49,7 +49,7 @@ function Feedback() {
                   >
                     <div className="side-card-header">
                       <img
-                        src={data.testimonials[0].image}
+                        src="/assets/person.png"
                         alt="logo"
                         className="side-person"
                       />
