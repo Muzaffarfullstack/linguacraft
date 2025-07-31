@@ -159,4 +159,25 @@
   .quiz-header img {
     display: none;
   }
+  .quiz-questions li {
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .quiz-questions span {
+    font-size: 10px;
+    margin-left: -25px;
+    padding: 10px;
+  }
+  .quiz-questions button {
+    margin-left: -55px;
+  }
+  .quiz-questions label {
+    font-size: 10px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .quiz-questions h3 {
+    font-size: 20px;
+  }
 }
