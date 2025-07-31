@@ -3,7 +3,7 @@ import "../index.css";
 import { useFetch } from "../hooks/useFetch";
 
 function Feedback() {
-  const { data, isPending, error } = useFetch("/data/db.json");
+  const { data, isPending, error } = useFetch("/public/data/db.json");
 
   return (
     <div className="feedback-container">

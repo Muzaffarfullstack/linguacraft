@@ -2,7 +2,7 @@ import "./Stats.css";
 import "../index.css";
 import { useFetch } from "../hooks/useFetch";
 function Stats() {
-  const { data, isPending, error } = useFetch("/data/db.json");
+  const { data, isPending, error } = useFetch("/public/data/db.json");
 
   return (
     <div className="stats-wrapper">
