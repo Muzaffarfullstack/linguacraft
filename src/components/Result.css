@@ -75,6 +75,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .result-container {
+    zoom: normal;
+  }
   .result-section span {
     font-size: 20px;
     white-space: nowrap;
