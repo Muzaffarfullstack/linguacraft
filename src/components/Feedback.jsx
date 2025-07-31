@@ -30,14 +30,14 @@ function Feedback() {
                 </div>
                 <div>
                   <img
-                    src="../../public/assets/stars.png"
+                    src="/assets/stars.png"
                     alt=""
                     className="rating-image"
                   />
                   <p>{data.testimonials[0].text}</p>
                   <h1>{data.testimonials[0].name}</h1>
                   <img
-                    src="../../public/assets/location-1.png"
+                    src="/assets/location-1.png"
                     alt=""
                     className="location-image"
                   />
@@ -60,7 +60,7 @@ function Feedback() {
                       <div>
                         <h1>{item.name}</h1>
                         <img
-                          src="../../public/assets/location-1.png"
+                          src="/assets/location-1.png"
                           alt=""
                           className="location-image"
                         />
@@ -68,7 +68,7 @@ function Feedback() {
                       </div>
                     </div>
                     <img
-                      src="../../public/assets/stars.png"
+                      src="/assets/stars.png"
                       alt=""
                       className="rating-image-2"
                     />

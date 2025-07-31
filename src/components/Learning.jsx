@@ -12,7 +12,7 @@ function Learning() {
         <div className="path-cards" data-aos="fade-up">
           <div className="path-card">
             <figure>
-              <img src="../../public/assets/open-book.png" alt="book" />
+              <img src="/assets/open-book.png" alt="book" />
             </figure>
             <h3>Beginner</h3>
             <p>A1-A2 Level</p>
@@ -28,7 +28,7 @@ function Learning() {
           </div>
           <div className="path-card">
             <figure>
-              <img src="../../public/assets/chat.png" alt="chat" />
+              <img src="/assets/chat.png" alt="chat" />
             </figure>
             <h3>Intermediate</h3>
             <p>B1-B2 Level</p>
@@ -44,7 +44,7 @@ function Learning() {
           </div>
           <div className="path-card">
             <figure>
-              <img src="../../public/assets/trophy-white.png" alt="trophy" />
+              <img src="/assets/trophy-white.png" alt="trophy" />
             </figure>
             <h3>Business English</h3>
             <p>Professional</p>
@@ -60,10 +60,7 @@ function Learning() {
           </div>
           <div className="path-card">
             <figure>
-              <img
-                src="../../public/assets/target-white.png"
-                alt="target-gaol"
-              />
+              <img src="/assets/target-white.png" alt="target-gaol" />
             </figure>
             <h3>IELTS Prep</h3>
             <p>Test Ready</p>
