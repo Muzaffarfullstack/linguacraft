@@ -36,7 +36,7 @@ function MasterEnglish() {
           <div className="english-card" data-aos="fade-left">
             <div className="card">
               <figure>
-                {/* <img src="../../public/assets/new.png" alt="book" /> */}
+                <img src="../../public/assets/new.png" alt="book" />
               </figure>
               <h1>Interactive Lessons</h1>
               <p>
@@ -45,21 +45,21 @@ function MasterEnglish() {
             </div>
             <div className="card">
               <figure>
-                {/* <img src="../../public/assets/trophy.png" alt="trophy" /> */}
+                <img src="../../public/assets/trophy.png" alt="trophy" />
               </figure>
               <h1>Track Progress</h1>
               <p>See your improvement in real-time</p>
             </div>
             <div className="card">
               <figure>
-                {/* <img src="../../public/assets/user.png" alt="user" /> */}
+                <img src="../../public/assets/user.png" alt="user" />
               </figure>
               <h1>Live Community</h1>
               <p>Practise with native speakers worldwide</p>
             </div>
             <div className="card">
               <figure>
-                {/* <img src="../../public/assets/goal.png" alt="goal" /> */}
+                <img src="../../public/assets/goal.png" alt="goal" />
               </figure>
               <h1>Personalized Goals</h1>
               <p>Achieve milestones at your own pace</p>

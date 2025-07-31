@@ -7,7 +7,7 @@ function Creator() {
       <div className="creator">
         {/* <div className="modal"></div> */}
         <div className="overlay"></div>
-        {/* <img src="../../play.png" alt="" /> */}
+        <img src="../../play.png" alt="" />
       </div>
       <div className="creator-text">
         <h2>
