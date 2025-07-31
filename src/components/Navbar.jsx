@@ -9,7 +9,7 @@ function Navbar() {
       <header className="container header-container">
         <nav>
           <figure className="logo">
-            {/* <img src="../../public/assets/book.png" alt="logo" /> */}
+            <img src="../../public/assets/book.png" alt="logo" />
             <span>LinguaCraft</span>
           </figure>
           <ul>

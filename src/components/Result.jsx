@@ -10,7 +10,7 @@ function Result({ score, total, onRestart }) {
       </div>
       <div className="result-section">
         <figure>
-          {/* <img src="../../public/assets/trophy-white.png" alt="truphy-white" /> */}
+          <img src="../../public/assets/trophy-white.png" alt="truphy-white" />
         </figure>
         <span>Assassment Completed!</span>
         <p className="score">

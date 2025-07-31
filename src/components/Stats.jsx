@@ -13,7 +13,7 @@ function Stats() {
           data.stats.map((card) => {
             return (
               <div className="stats-cards" key={card.title}>
-                {/* <img src={card.image} alt="" /> */}
+                <img src={card.image} alt="" />
                 <h1>{card.value}</h1>
                 <p>{card.title}</p>
               </div>
