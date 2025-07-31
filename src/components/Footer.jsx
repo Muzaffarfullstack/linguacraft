@@ -9,7 +9,7 @@ function Footer() {
       <div className="container footer-section" data-aos="fade-up">
         <div className="footer-1">
           <div className="footer-header">
-            <img src="../../public/assets/open-book.png" alt="logo" />
+            {/* <img src="../../public/assets/open-book.png" alt="logo" /> */}
             <h2>LinguaCraft</h2>
           </div>
           <p>
