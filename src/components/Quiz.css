@@ -148,14 +148,15 @@
     /* blue */ 0 8px 30px rgba(147, 51, 234, 0.25);
 }
 @media screen and (max-width: 480px) {
-  .quiz-text h1 {
-    font-size: 35px;
+  .quiz-body {
+    width: 100%;
   }
-  .quiz-text p {
-    width: 300px;
+  .quiz-header {
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
   }
-  .quiz-main {
-    width: 480px;
-    text-align: left;
+  .quiz-header img {
+    display: none;
   }
 }

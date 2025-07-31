@@ -59,7 +59,7 @@ function Quiz() {
       <div className="quiz-body" data-aos="fade-up">
         <div className="quiz-header">
           <div className="question-length">
-            Question {answeredQuestions} of{" "}
+            Question {answeredQuestions} of
             {questions ? questions.quizQuestions.length : 0}
           </div>
           <div className="quiz-progress">
