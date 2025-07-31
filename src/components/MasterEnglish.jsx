@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 function MasterEnglish() {
   useEffect(() => {
-    Aos.init({ duration: 800, easing: "ease-in-out", once: false });
+    Aos.init({ duration: 800, easing: "ease-in-out", once: true });
   }, []);
 
   return (

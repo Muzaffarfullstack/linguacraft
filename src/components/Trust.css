@@ -1,8 +1,11 @@
+.trust-wrapper {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  width: 100vw;
+}
+
 .trust-section {
   text-align: center;
   padding: 3.125rem;
-  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
-  width: 100vw;
   overflow-x: hidden;
 }
 .trust-text h1 {
