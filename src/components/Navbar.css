@@ -104,135 +104,35 @@ li {
   border-radius: 15px;
   opacity: 0;
 }
-/* @media (min-width: 320px) and (max-width: 576px) {
-  .header-wrapper {
-    position: relative;
-    text-align: left;
-    right: 85%;
-    height: 0px;
-  }
-  .header-container {
-    max-width: 480px;
-  }
-  .logo {
-    position: relative;
-    left: -300px;
-  }
-  nav,
-  ul {
-    flex-direction: column;
-    text-align: center;
-    transition: all 0.3s ease;
-    max-width: 480px;
-  }
-  ul,
-  .register {
-    margin-left: -420px;
-  }
-  li {
-    margin: 10px 0;
-  }
-  .close-btn {
-    opacity: 1;
-  }
-  .closeNav {
-    opacity: 1;
-    background: #fff;
-    z-index: 100;
-    width: 100vw;
-    height: 100%;
-  }
-  .openNav {
-    opacity: 0;
-    overflow: hidden;
-  }
-  .menu-bar {
-    opacity: 1;
-    position: absolute;
-    right: -75%;
-  }
-} */
-/* === 📱 Mobile (320px – 576px) === */
-@media (max-width: 576px) {
+
+@media screen and (max-width: 576px) {
   .header-wrapper {
     position: relative;
     width: 100%;
-    height: auto;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .logo {
-    position: relative;
+    height: 0;
     left: 0;
-    margin-bottom: 10px;
+    right: 0;
   }
-
-  /* Menu yashirish */
   ul,
   .register {
+    width: 100%;
     flex-direction: column;
-    width: 100%;
-    background: #fff;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    transition: all 0.3s ease;
-  }
-
-  ul.openNav,
-  .register.openNav {
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-100%);
-  }
-
-  ul.closeNav,
-  .register.closeNav {
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0);
-  }
-
-  li {
-    margin: 15px 0;
     text-align: center;
+    background: #fff;
+    display: none;
   }
-
-  .menu-bar {
-    opacity: 1;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    cursor: pointer;
+  li {
+    margin: 10px;
   }
-
-  .close-btn {
-    opacity: 1;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    z-index: 1001;
-    cursor: pointer;
+  .logo span {
+    /* position: relative; */
+    bottom: 120px;
+    z-index: 10000;
   }
-}
-
-/* === 💻 Tablet (576px – 992px) === */
-@media (min-width: 577px) and (max-width: 992px) {
+  .logo img {
+    opacity: 0;
+  }
   nav {
-    width: 100%;
-    padding: 0 1rem;
-  }
-}
-
-/* === 🖥️ Desktop (992px va undan katta) === */
-@media (min-width: 993px) {
-  nav {
-    width: 78.125rem;
+    flex-direction: column;
   }
 }
