@@ -112,7 +112,8 @@ li {
     height: 0px;
   }
   .logo {
-    margin-right: 230px;
+    position: relative;
+    /* margin-right: 230px; */
   }
   nav,
   ul {
