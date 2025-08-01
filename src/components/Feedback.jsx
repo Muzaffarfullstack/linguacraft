@@ -24,7 +24,7 @@ function Feedback() {
                 <div>
                   <img src="/assets/person.png" alt="" className="main-image" />
                 </div>
-                <div>
+                <div className="card-large-paragraph">
                   <img
                     src="/assets/stars.png"
                     alt=""

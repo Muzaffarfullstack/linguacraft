@@ -81,3 +81,23 @@
 .reason-video img:hover {
   background: #d6caca33;
 }
+
+@media only screen and (max-width: 480px) {
+  .reason-section {
+    flex-direction: column;
+  }
+  .reason-text {
+    margin: 0px 20px;
+  }
+  .reason-video {
+    width: 450px;
+    margin: 0px 10px;
+  }
+  .reason-video button {
+    width: 350px;
+  }
+  .reason-video img {
+    position: absolute;
+    left: 45%;
+  }
+}

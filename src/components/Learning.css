@@ -98,7 +98,7 @@
   background: linear-gradient(to right, #f472b6, #ef4444);
   width: 55%;
 }
-/* hover move */
+
 .path-card:hover {
   transform: scale(1.1);
 }
@@ -110,5 +110,9 @@
   .path-cards {
     flex-direction: column;
     margin: 0.625rem;
+  }
+  .path-card {
+    width: 400px;
+    margin: 10px 0;
   }
 }
