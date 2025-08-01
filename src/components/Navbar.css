@@ -111,6 +111,9 @@ li {
     right: 85%;
     height: 0px;
   }
+  .header-container {
+    max-width: 480px;
+  }
   .logo {
     position: relative;
     left: -100px;
