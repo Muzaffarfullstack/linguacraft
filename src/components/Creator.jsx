@@ -14,7 +14,7 @@ function Creator() {
           "I created this platform so every learner feels seen, supported, and
           successful."
         </h2>
-        <p>— Muzaffar Nematjonov, Founder & CEO</p>
+        <p>Muzaffar Nematjonov, Founder & CEO</p>
       </div>
     </section>
   );

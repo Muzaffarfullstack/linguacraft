@@ -51,13 +51,19 @@
   background: rgb(108, 108, 108);
   z-index: 100000;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .overlay {
+    display: none;
+  }
+  .creator-text h2 {
+    font-size: 16px;
+  }
+  /* .overlay {
     position: absolute;
     left: 32%;
     display: none;
   }
   .creator-text h2 {
     font-size: 1.25rem;
-  }
+  } */
 }
