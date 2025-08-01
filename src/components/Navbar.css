@@ -116,13 +116,18 @@ li {
   }
   .logo {
     position: relative;
-    left: -100px;
+    left: -300px;
   }
   nav,
   ul {
+    /* position: relative; */
     flex-direction: column;
     text-align: center;
     transition: all 0.3s ease;
+  }
+  ul,
+  .register {
+    margin-left: -420px;
   }
   li {
     margin: 10px 0;
