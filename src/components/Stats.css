@@ -31,3 +31,12 @@
   color: #bfdbfe;
   font-size: 18px;
 }
+
+@media only screen and (max-width: 480px) {
+  .stats-container {
+    flex-direction: column;
+  }
+  .stats-cards {
+    width: 400px;
+  }
+}
