@@ -116,5 +116,10 @@
   }
   .inner-card {
     width: 300px;
+    margin-left: -20px;
+  }
+  .journey-progress {
+    width: 320px;
+    margin-left: -22px;
   }
 }
