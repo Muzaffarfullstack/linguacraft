@@ -106,13 +106,15 @@
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
+  .path-text h1 {
+    font-size: 25px;
+  }
   .path-cards {
     flex-direction: column;
-    margin: 0.625rem;
+    margin: 0.67rem;
   }
   .path-card {
-    width: 400px;
-    margin: 10px 0;
+    margin: 0 auto;
   }
 }

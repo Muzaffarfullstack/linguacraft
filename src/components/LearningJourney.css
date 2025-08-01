@@ -103,23 +103,18 @@
 
 @media screen and (max-width: 480px) {
   .journey-text h1 {
-    white-space: nowrap;
-    font-size: 35px;
-    margin-left: -30px;
-  }
-  .journey-text p {
-    white-space: nowrap;
+    font-size: 25px;
     margin-left: -35px;
+    white-space: nowrap;
+  }
+  .journey-text,
+  .journey-card {
+    margin: 0 auto;
   }
   .journey-cards {
     flex-direction: column;
   }
-  .journey-number {
-    margin-left: 25px;
-  }
-  .inner-card,
-  .journey-progress {
-    width: 400px;
-    margin-left: -20px;
+  .inner-card {
+    width: 300px;
   }
 }
