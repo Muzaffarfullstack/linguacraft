@@ -104,7 +104,7 @@ li {
   border-radius: 15px;
   opacity: 0;
 }
-@media (min-width: 320px) and (max-width: 576px) {
+/* @media (min-width: 320px) and (max-width: 576px) {
   .header-wrapper {
     position: relative;
     text-align: left;
@@ -120,10 +120,10 @@ li {
   }
   nav,
   ul {
-    /* position: relative; */
     flex-direction: column;
     text-align: center;
     transition: all 0.3s ease;
+    max-width: 480px;
   }
   ul,
   .register {
@@ -150,5 +150,89 @@ li {
     opacity: 1;
     position: absolute;
     right: -75%;
+  }
+} */
+/* === 📱 Mobile (320px – 576px) === */
+@media (max-width: 576px) {
+  .header-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .logo {
+    position: relative;
+    left: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Menu yashirish */
+  ul,
+  .register {
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+
+  ul.openNav,
+  .register.openNav {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-100%);
+  }
+
+  ul.closeNav,
+  .register.closeNav {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  li {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .menu-bar {
+    opacity: 1;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+  }
+
+  .close-btn {
+    opacity: 1;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 1001;
+    cursor: pointer;
+  }
+}
+
+/* === 💻 Tablet (576px – 992px) === */
+@media (min-width: 577px) and (max-width: 992px) {
+  nav {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+/* === 🖥️ Desktop (992px va undan katta) === */
+@media (min-width: 993px) {
+  nav {
+    width: 78.125rem;
   }
 }
