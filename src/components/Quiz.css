@@ -147,7 +147,7 @@
     /* dark blue */ 0 6px 20px rgba(59, 130, 246, 0.3),
     /* blue */ 0 8px 30px rgba(147, 51, 234, 0.25);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .quiz-body {
     width: 100%;
   }
@@ -170,6 +170,7 @@
     padding: 10px;
   }
   .quiz-questions button {
+    margin-top: 20px;
     margin-left: -55px;
   }
   .quiz-questions label {
