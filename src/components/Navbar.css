@@ -115,11 +115,117 @@
   background: black;
   display: none;
 }
+/* .top-drawer.open {
+  display: block;
+} */
+.top-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 0;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: max-height 0.3s ease padding 0.3s ease;
+  z-index: 1000;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  overflow-y: hidden;
+}
+.top-drawer.open {
+  height: 400px;
+  padding: 1.5rem 2rem 2rem;
+  display: block;
+}
+.drawer-links {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.drawer-links li a {
+  color: #374151;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.drawer-links li a:hover {
+  background: #e0e7ff;
+}
+.drawer-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.drawer-buttons button {
+  flex: 1;
+  padding: 0.6rem 0;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+.drawer-buttons .login-1 {
+  background: transparent;
+  color: #374151;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.drawer-buttons .login-1:hover {
+  color: #3b82f6;
+  border-color: #3b82f6;
+}
+.drawer-buttons .signUp-2 {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  color: white;
+  transition: box-shadow 0.3s ease;
+}
+.drawer-buttons .signUp-2:hover {
+  box-shadow: 0 4px 10px rgba(30, 58, 138, 0.4),
+    0 6px 20px rgba(59, 130, 246, 0.3), 0 8px 30px rgba(147, 51, 234, 0.25);
+}
+
+.close-drawer {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #374151;
+  cursor: pointer;
+  margin-top: 1rem;
+  align-items: center;
+}
+.drawer-overlay {
+  position: fixed;
+  top: 400px;
+  left: 0;
+  width: 100vw;
+  z-index: 10000;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.35);
+  overflow-y: hidden;
+}
+
 @media only screen and (max-width: 576px) {
+  .explore-section,
   .login,
-  .signUp,
-  .explore-section {
+  .signUp {
     display: none;
+  }
+  .drawer {
+    display: block;
   }
   .menu-section .menu-bar {
     background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
