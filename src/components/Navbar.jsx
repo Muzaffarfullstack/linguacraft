@@ -1,71 +1,47 @@
-import "./Navbar.css";
-import "../index.css";
-import { useState } from "react";
-
 import { Link } from "react-router-dom";
+import "../index.css";
+import "./Navbar.css";
 
 function Navbar() {
-  const [toggleNavbar, setToggleNavbar] = useState(false);
-  const [isHidden, setIsHidden] = useState(false);
-
-  const closeNavbar = () => {
-    setToggleNavbar(false);
-    setIsHidden(false);
-  };
-  const openNavbar = () => {
-    setToggleNavbar(true);
-    setIsHidden(true);
-  };
-
   return (
-    <div className="header-wrapper">
-      <header className="container header-container">
-        <nav>
-          <figure className="logo">
-            <img src="/assets/book.png" alt="logo" />
-            <span>LinguaCraft</span>
-          </figure>
-          <ul className={`${toggleNavbar ? "closeNav" : "openNav"}`}>
-            <li>
-              <Link className="active nav-links">Home</Link>
-            </li>
-            <li>
-              <Link className="nav-links">Courses</Link>
-            </li>
-            <li>
-              <Link className="nav-links">Dashboard</Link>
-            </li>
-            <li>
-              <Link className="nav-links">Community</Link>
-            </li>
-            <li>
-              <Link className="nav-links">About</Link>
-            </li>
-          </ul>
-          <div className={`register ${toggleNavbar ? "closeNav" : "openNav"}`}>
-            <button className="btn btn-login">Login</button>
-            <button className="btn btn-signUp">Sign up</button>
-            <span></span>
+    <header>
+      <div className="container header-container">
+        <div className="logo-section">
+          <img src="/assets/open-book.png" alt="" className="logo-image" />
+          <span>LinguaCraft</span>
+          <div className="explore-section">
+            <button className="explore-btn">Explore</button>
+            <ul className="dropdown-menu">
+              <li>
+                <Link className="dropdown-link">Home</Link>
+              </li>
+              <li>
+                <Link className="dropdown-link">Courses</Link>
+              </li>
+              <li>
+                <Link className="dropdown-link">Dashboard</Link>
+              </li>
+              <li>
+                <Link className="dropdown-link">Community</Link>
+              </li>
+              <li>
+                <Link className="dropdown-link">About</Link>
+              </li>
+            </ul>
           </div>
-          {isHidden && (
-            <img
-              src="/assets/delete2.png"
-              alt=""
-              className="close-btn"
-              onClick={closeNavbar}
-            />
-          )}
-          {!isHidden && (
-            <img
-              src="/assets/menu-bar.png"
-              alt=""
-              className="menu-bar"
-              onClick={openNavbar}
-            />
-          )}
-        </nav>
-      </header>
-    </div>
+        </div>
+
+        <div className="register-section">
+          <button className="login">Login</button>
+          <button className="signUp">Sign Up</button>
+
+          <div className="menu-section">
+            <img src="/assets/menu-bar.png" alt="" className="menu-bar" />
+            <img src="/assets/delete2.png" alt="" className="close-btn" />
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }
 

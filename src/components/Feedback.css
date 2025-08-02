@@ -106,31 +106,36 @@
   margin: 10px 15px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
+  .feedback-text {
+    text-align: center;
+  }
   .feedback-text h1 {
     white-space: nowrap;
-    font-size: 30px;
-    margin-left: -10px;
+    font-size: 25px;
+    margin-left: -30px;
   }
   .feedback-text p {
     font-size: 20px;
   }
   .testimonial-wrapper {
     flex-direction: column;
+    width: 100%;
   }
+
   .card-large {
-    width: 400px;
+    width: 350px;
     margin-left: -25px;
   }
   .card-large-paragraph p {
     font-size: 15px;
     line-height: 22px;
   }
-  .card-large-paragraph h1 {
+  /* .card-large-paragraph h1 {
     font-size: 25px;
-  }
-  .side-cards {
+  } */
+  /* .side-cards {
     width: 425px;
     margin-left: -37px;
-  }
+  } */
 }
