@@ -115,9 +115,7 @@
   background: black;
   display: none;
 }
-/* .top-drawer.open {
-  display: block;
-} */
+
 .top-drawer {
   position: fixed;
   top: 0;
@@ -140,6 +138,7 @@
   height: 400px;
   padding: 1.5rem 2rem 2rem;
   display: block;
+  overflow: hidden;
 }
 .drawer-links {
   list-style: none;
@@ -205,7 +204,7 @@
   color: #374151;
   cursor: pointer;
   position: absolute;
-  left: 40%;
+  left: 45%;
   transform: translate(-50% -50%);
   margin-top: 1rem;
 }

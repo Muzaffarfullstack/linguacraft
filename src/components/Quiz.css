@@ -72,6 +72,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
+  list-style: none;
 }
 .question-options {
   user-select: none;
@@ -79,6 +80,9 @@
   font-weight: 550;
   cursor: pointer;
   color: #000000;
+  /* position: relative;  */
+  display: flex;
+  align-items: center;
 }
 
 .check {
@@ -144,8 +148,7 @@
 }
 .next-btn:hover {
   box-shadow: 0 4px 10px rgba(30, 58, 138, 0.4),
-    /* dark blue */ 0 6px 20px rgba(59, 130, 246, 0.3),
-    /* blue */ 0 8px 30px rgba(147, 51, 234, 0.25);
+    0 6px 20px rgba(59, 130, 246, 0.3), 0 8px 30px rgba(147, 51, 234, 0.25);
 }
 @media screen and (max-width: 576px) {
   .quiz-body {
@@ -186,10 +189,5 @@
   }
   .question-options {
     display: flex;
-  }
-  .check,
-  .delete {
-    /* margin: 5px 10px 0 0; */
-    display: none;
   }
 }
