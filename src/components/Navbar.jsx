@@ -62,19 +62,19 @@ function Navbar() {
       <div className={`top-drawer ${isOpen ? "open" : ""}`}>
         <ul className="drawer-links" onClick={closeDrawer}>
           <li>
-            <Link>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link>Courses</Link>
+            <Link to="/courses">Courses</Link>
           </li>
           <li>
-            <Link>Dashboard</Link>
+            <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link>Community</Link>
+            <Link to="/community">Community</Link>
           </li>
           <li>
-            <Link>About</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
 
