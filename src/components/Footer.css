@@ -51,6 +51,7 @@
 }
 .footer-1 ul li {
   margin: 10px 0;
+  list-style: none;
 }
 .footer-1 ul li a {
   text-decoration: none;

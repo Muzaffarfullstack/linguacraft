@@ -64,7 +64,7 @@
   margin-bottom: 10px;
 }
 .card-large p {
-  line-clamp: 3;
+  /* line-clamp: 3; */
   color: rgb(255, 255, 255);
   font-size: 20px;
   margin: 10px 0;
@@ -107,35 +107,32 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .feedback-text {
-    text-align: center;
-  }
   .feedback-text h1 {
     white-space: nowrap;
-    font-size: 25px;
     margin-left: -30px;
+    font-size: 25px;
   }
   .feedback-text p {
-    font-size: 20px;
+    font-size: 23px;
   }
   .testimonial-wrapper {
     flex-direction: column;
-    width: 100%;
+    width: 95vw;
+    gap: 10px;
   }
-
   .card-large {
-    width: 350px;
-    margin-left: -25px;
+    width: 100%;
+    margin: 0 -60px;
+    padding: 5px 0;
+  }
+  .side-cards {
+    width: 100vw;
+    margin: 0 -70px;
+  }
+  .main-image {
+    display: none;
   }
   .card-large-paragraph p {
     font-size: 15px;
-    line-height: 22px;
   }
-  /* .card-large-paragraph h1 {
-    font-size: 25px;
-  } */
-  /* .side-cards {
-    width: 425px;
-    margin-left: -37px;
-  } */
 }

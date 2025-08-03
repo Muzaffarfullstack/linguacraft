@@ -54,7 +54,6 @@ function Navbar() {
                 className="menu-bar"
                 onClick={openDrawer}
               />
-              <img src="/assets/delete2.png" alt="" className="close-btn" />
             </div>
           </div>
         </div>

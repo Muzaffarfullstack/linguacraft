@@ -1,7 +1,5 @@
 .main-container {
   background: #f3f7fc;
-  /* margin-top: 3.5rem; */
-  /* min-height: 100vh; */
 }
 
 .master-english {
@@ -27,22 +25,22 @@
 .btn-free {
   background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
   color: #fff;
+  margin-right: 0.93rem;
 }
 .btn-free:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(30, 58, 138, 0.4),
-    /* dark blue */ 0 6px 20px rgba(59, 130, 246, 0.3),
-    /* blue */ 0 8px 30px rgba(147, 51, 234, 0.25);
+    0 6px 20px rgba(59, 130, 246, 0.3), 0 8px 30px rgba(147, 51, 234, 0.25);
 }
 .btn-explore {
-  background: #fff;
-  border: 2px solid rgb(173, 170, 170);
+  background: transparent;
+  border: 2px solid #374151;
   color: #374151;
 }
 .btn-explore:hover {
   transform: scale(1.1);
   color: #3b82f6;
-  border-color: #3b82f6;
+  border: 2px solid #3b82f6;
 }
 figure img {
   width: 2rem;
@@ -52,6 +50,15 @@ figure img {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.56rem;
 }
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font: 1.2rem;
+}
+
 .card {
   padding: 0.93rem;
   border-radius: 0.93rem;
