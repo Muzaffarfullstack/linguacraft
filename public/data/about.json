@@ -1,0 +1,68 @@
+{
+  "about": {
+    "title": "About LinguaCraft",
+    "description": "We're on a mission to make English learning accessible, engaging, and effective for everyone, regardless of their background or starting level. Our platform combines cutting-edge technology with proven pedagogical methods to create a truly personalized learning experience.",
+    "actions": ["Join Our Community", "Learn More"]
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "To empower individuals worldwide to master English through innovative, personalized, and community-driven learning experiences that build confidence and open doors to new opportunities."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "A world where language barriers don't limit potential, where every person has access to quality English education, and where learning is an enjoyable, social, and transformative experience."
+  },
+  "whyWeStarted": {
+    "title": "Why We Started LinguaCraft",
+    "text": "As a developer passionate about using technology for good, I saw the lack of effective digital tools for language learners. I started LinguaCraft to create a smarter, more intuitive platform that blends community, personalization, and innovation — all driven by modern tech.",
+    "founder": {
+      "name": "Muzaffar Nematjonov",
+      "role": "Founder & CEO"
+    }
+  },
+  "coreValues": [
+    {
+      "title": "Personalized Learning",
+      "description": "Every learner is unique. Our adaptive technology creates personalized learning paths that match your pace, style, and goals."
+    },
+    {
+      "title": "Community-Driven",
+      "description": "Learning is better together. Our global community of learners and native speakers creates an immersive environment for practice."
+    },
+    {
+      "title": "Inclusive & Accessible",
+      "description": "We believe everyone deserves access to quality education. Our platform is designed to be inclusive and accessible to all learners."
+    },
+    {
+      "title": "Continuous Innovation",
+      "description": "We constantly evolve our platform based on the latest research in language learning and user feedback to provide the best experience."
+    }
+  ],
+  "team": [
+    {
+      "name": "Muzaffar Nematjonov",
+      "role": "Founder & CEO",
+      "bio": "Former ESL teacher with 15+ years of experience. PhD in Applied Linguistics from Cambridge University."
+    },
+    {
+      "name": "Michael Chen",
+      "role": "Head of Product",
+      "bio": "Product strategist with expertise in EdTech. Previously led product teams at Duolingo and Coursera."
+    },
+    {
+      "name": "Emma Thompson",
+      "role": "Lead Curriculum Designer",
+      "bio": "Curriculum expert with MA in TESOL. Specialized in creating engaging and effective language learning content."
+    },
+    {
+      "name": "David Rodriguez",
+      "role": "Head of Engineering",
+      "bio": "Full-stack engineer passionate about creating scalable educational technology solutions."
+    }
+  ],
+  "callToAction": {
+    "heading": "Ready to Join Our Community?",
+    "text": "Start your English learning journey today and become part of our global community of learners.",
+    "buttons": ["Start Learning Now", "Contact Us"]
+  }
+}
