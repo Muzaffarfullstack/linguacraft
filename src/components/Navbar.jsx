@@ -25,19 +25,29 @@ function Navbar() {
               <button className="explore-btn">Explore</button>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-link">Home</Link>
+                  <Link className="dropdown-link" to="/">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-link">Courses</Link>
+                  <Link className="dropdown-link" to="/courses">
+                    Courses
+                  </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-link">Dashboard</Link>
+                  <Link className="dropdown-link" to="/dashboard">
+                    Dashboard
+                  </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-link">Community</Link>
+                  <Link className="dropdown-link" to="/community">
+                    Community
+                  </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-link">About</Link>
+                  <Link className="dropdown-link" to="/about">
+                    About
+                  </Link>
                 </li>
               </ul>
             </div>
