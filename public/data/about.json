@@ -22,39 +22,47 @@
   },
   "coreValues": [
     {
+      "image": "../assets/target-white.png",
       "title": "Personalized Learning",
       "description": "Every learner is unique. Our adaptive technology creates personalized learning paths that match your pace, style, and goals."
     },
     {
+      "image": "../assets/white-ceo.png",
       "title": "Community-Driven",
       "description": "Learning is better together. Our global community of learners and native speakers creates an immersive environment for practice."
     },
     {
+      "image": "../assets/like.png",
       "title": "Inclusive & Accessible",
       "description": "We believe everyone deserves access to quality education. Our platform is designed to be inclusive and accessible to all learners."
     },
     {
+      "image": "../assets/rise.png",
       "title": "Continuous Innovation",
       "description": "We constantly evolve our platform based on the latest research in language learning and user feedback to provide the best experience."
     }
   ],
   "team": [
     {
+      "image": "../assets/white-ceo.png",
       "name": "Muzaffar Nematjonov",
       "role": "Founder & CEO",
       "bio": "Former ESL teacher with 15+ years of experience. PhD in Applied Linguistics from Cambridge University."
     },
     {
+      "image": "../assets/white-ceo.png",
       "name": "Michael Chen",
       "role": "Head of Product",
       "bio": "Product strategist with expertise in EdTech. Previously led product teams at Duolingo and Coursera."
     },
     {
+      "image": "../assets/white-ceo.png",
       "name": "Emma Thompson",
       "role": "Lead Curriculum Designer",
       "bio": "Curriculum expert with MA in TESOL. Specialized in creating engaging and effective language learning content."
     },
     {
+      "image": "../assets/white-ceo.png",
       "name": "David Rodriguez",
       "role": "Head of Engineering",
       "bio": "Full-stack engineer passionate about creating scalable educational technology solutions."

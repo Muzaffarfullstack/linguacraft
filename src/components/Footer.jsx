@@ -28,7 +28,7 @@ function Footer() {
           <h2>Resources</h2>
           <ul>
             <li>
-              <Link>About Us</Link>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
               <Link>Courses</Link>
