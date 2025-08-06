@@ -6,7 +6,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <div className="footer-container">
-      <div className="container footer-section" data-aos="fade-up">
+      <div className="container footer-section">
         <div className="footer-1">
           <div className="footer-header">
             <img src="/assets/open-book.png" alt="logo" />

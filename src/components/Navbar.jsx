@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  // console.log(nice);
 
   const openDrawer = () => {
     setIsOpen(true);
