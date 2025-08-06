@@ -1,0 +1,116 @@
+.error-container {
+  text-align: center;
+  background: #f3f7fc;
+}
+.error-container img {
+  width: 20px;
+  position: relative;
+  top: 3px;
+  right: 5px;
+  transition: all 0.3s ease;
+}
+.error-container h1 {
+  font-size: 120px;
+  background: linear-gradient(to right, #000, #3b82f6, #9333ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline;
+}
+.error-container h2 {
+  font-size: 30px;
+  color: #1f2937;
+  margin: 20px auto;
+}
+.first-paragraph {
+  font-size: 20px;
+  color: #4b5563;
+  margin: 10px;
+}
+.back-home {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+.back-home:hover {
+  box-shadow: 0px 4px 7px rgba(30, 58, 138, 0.4),
+    0px 2px 10px rgba(59, 130, 246, 0.3), 0 2px 20px rgba(147, 51, 234, 0.25);
+}
+.back-home:hover img {
+  margin-right: 5px;
+  scale: 1.1;
+}
+.action-container {
+  position: relative;
+  top: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.action-container h3 {
+  font-size: 24px;
+  margin: 20px auto;
+  color: #1f2937;
+}
+.action-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.box img {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  padding: 12px;
+  width: 50px;
+  margin: 10px auto;
+  border-radius: 15px;
+  scale: 1;
+  transition: all 0.3 ease;
+}
+.box {
+  cursor: pointer;
+  width: 250px;
+  height: 200px;
+  scale: 1;
+  transition: all 0.3s ease;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.box:hover img {
+  scale: 1.1;
+}
+.box:hover {
+  scale: 1.1;
+}
+.box-link {
+  text-decoration: none;
+}
+.box-link h5 {
+  font-size: 18px;
+  color: #1f2937;
+}
+.evrika {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+.evrika h3 {
+  font-size: 25px;
+  color: #fff;
+  margin: 20px auto;
+}
+.evrika p {
+  font-size: 20px;
+  color: #dbeafe;
+}
+.light {
+  width: 50px;
+  margin-bottom: 5px;
+}
