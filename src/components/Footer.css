@@ -86,6 +86,6 @@
   }
   .footer-end {
     font-size: 14px;
-    white-space: nowrap;
+    margin-bottom: 20px;
   }
 }
