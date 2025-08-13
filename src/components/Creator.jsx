@@ -1,35 +1,35 @@
 import "./Creator.css";
 import "../index.css";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 function Creator() {
-  const [isModal, setIsModal] = useState(false);
+  // const [isModal, setIsModal] = useState(false);
 
   // function for modal
-  const openModal = () => {
-    setIsModal(true);
-  };
-  const closeModal = () => {
-    setIsModal(false);
-    const iframe = document.querySelector("iframe");
-    if (iframe) {
-      iframe.src = iframe.src;
-    }
-  };
+  // const openModal = () => {
+  //   setIsModal(true);
+  // };
+  // const closeModal = () => {
+  //   setIsModal(false);
+  //   const iframe = document.querySelector("iframe");
+  //   if (iframe) {
+  //     iframe.src = iframe.src;
+  //   }
+  // };
 
-  useEffect(() => {
-    if (isModal) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [isModal]);
+  // useEffect(() => {
+  //   if (isModal) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     document.body.style.overflow = "auto";
+  //   }
+  // }, [isModal]);
 
   return (
     <section className="container ceo" data-aos="zoom-in">
       <div className="creator">
         <div className="overlay-section">
-          <div className={`overlay ${isModal ? "showOverlay" : ""}`}>
+          {/* <div className={`overlay ${isModal ? "showOverlay" : ""}`}>
             <div className="modal-content">
               <img
                 src="assets/play.png"
@@ -48,24 +48,24 @@ function Creator() {
                 allowFullScreen
               ></iframe>
             </div>
-          </div>
-          {isModal && (
+          </div> */}
+          {/* {isModal && (
             <img
               src="/assets/delete2.png"
               alt=""
               className="video-closer"
               onClick={closeModal}
             />
-          )}
+          )} */}
         </div>
-        <img
+        {/* <img
           src="../../play.png"
           alt=""
           className="play-button"
           onClick={() => {
             openModal();
           }}
-        />
+        /> */}
       </div>
       <div className="creator-text">
         <h2>
