@@ -53,7 +53,7 @@ function ErrorPage() {
                 </div>
                 <div className="box">
                   <Link className="box-link">
-                    <img src="../../public/assets/chat.png" alt="" />
+                    <img src="/assets/chat.png" alt="" />
                     <h5>Get Help</h5>
                     <p className="box-paragraph">
                       Contact our support <br /> team
