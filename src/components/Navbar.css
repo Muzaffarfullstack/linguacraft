@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
 }
-.logo-section span {
+.logo-section .logo {
   font-size: 32px;
   font-weight: 600;
   background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);

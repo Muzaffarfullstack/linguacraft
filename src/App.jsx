@@ -3,6 +3,7 @@ import MainLayout from "./layout/MainLayout";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 import About from "./pages/about/About";
+import Courses from "./pages/courses/Courses";
 
 function App() {
   const routes = createBrowserRouter([
@@ -18,6 +19,10 @@ function App() {
         {
           path: "/about",
           element: <About />,
+        },
+        {
+          path: "/courses/",
+          element: <Courses />,
         },
       ],
     },
