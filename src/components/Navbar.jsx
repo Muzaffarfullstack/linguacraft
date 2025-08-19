@@ -21,7 +21,9 @@ function Navbar() {
         <div className="container header-container">
           <div className="logo-section">
             <img src="/assets/open-book.png" alt="" className="logo-image" />
-            <span>LinguaCraft</span>
+            <Link to="/" className="logo">
+              LinguaCraft
+            </Link>
             <div className="explore-section">
               <button className="explore-btn">Explore</button>
               <ul className="dropdown-menu">

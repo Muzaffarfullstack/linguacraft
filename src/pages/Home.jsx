@@ -8,8 +8,16 @@ import Quiz from "../components/Quiz";
 import Reason from "../components/Reason";
 import Stats from "../components/Stats";
 import Trust from "../components/Trust";
+import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 function Home() {
+  const { title } = useParams();
+
+  useEffect(() => {
+    document.title = "LinguaCraft";
+  }, [title]);
+
   return (
     <div>
       <MasterEnglish />

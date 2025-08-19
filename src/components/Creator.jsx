@@ -27,9 +27,9 @@ function Creator() {
 
   return (
     <section className="container ceo" data-aos="zoom-in">
-      <div className="creator">
-        <div className="overlay-section">
-          {/* <div className={`overlay ${isModal ? "showOverlay" : ""}`}>
+      {/* <div className="creator"> */}
+      <div className="overlay-section">
+        {/* <div className={`overlay ${isModal ? "showOverlay" : ""}`}>
             <div className="modal-content">
               <img
                 src="assets/play.png"
@@ -49,7 +49,7 @@ function Creator() {
               ></iframe>
             </div>
           </div> */}
-          {/* {isModal && (
+        {/* {isModal && (
             <img
               src="/assets/delete2.png"
               alt=""
@@ -57,8 +57,8 @@ function Creator() {
               onClick={closeModal}
             />
           )} */}
-        </div>
-        {/* <img
+      </div>
+      {/* <img
           src="../../play.png"
           alt=""
           className="play-button"
@@ -66,7 +66,7 @@ function Creator() {
             openModal();
           }}
         /> */}
-      </div>
+      {/* </div> */}
       <div className="creator-text">
         <h2>
           "I created this platform so every learner feels seen, supported, and
