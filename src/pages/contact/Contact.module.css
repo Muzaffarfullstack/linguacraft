@@ -1,0 +1,267 @@
+.formWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  text-align: center;
+  margin: 20px auto;
+}
+.text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline;
+}
+.text p {
+  font-size: 22px;
+  color: #4b5563;
+}
+.contactBoxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contactBox {
+  transition: transform 0.2s ease;
+  transform: scale(1);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: -2px 5px 6px rgba(0, 0, 0, 0.12), 2px -2px 2px rgba(0, 0, 0, 0.08);
+}
+.contactBox:hover {
+  transform: scale(1.08);
+}
+.contactBox img {
+  width: 60px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.firstBox {
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+}
+.secondBox {
+  background: linear-gradient(to right, #4ade80, #3b82f6);
+}
+.thirdBox {
+  background: linear-gradient(to right, #c084fc, #ec4899);
+}
+.fourthBox {
+  background: linear-gradient(to right, #facc15, #f97316);
+}
+.contactBox h3 {
+  font-size: 20px;
+  margin: 10px auto;
+}
+.contactBox p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #4b5563;
+}
+.contactBox span {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+/* form section */
+.formContainer {
+  width: 50%;
+}
+.form {
+  display: inline-block;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: -2px 5px 6px rgba(0, 0, 0, 0.12), 2px -2px 2px rgba(0, 0, 0, 0.08);
+}
+.form h2 {
+  margin-bottom: 30px;
+}
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.firstLabel {
+  margin-right: 10px;
+}
+
+label h4 {
+  font-weight: 550;
+  font-size: 18px;
+  color: #1f2937;
+}
+.form label {
+  display: block;
+  flex-direction: column;
+}
+.form label input {
+  width: 256px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border-color: rgb(229, 231, 235);
+  height: 50px;
+}
+.form label > input:focus {
+  border-color: rgb(59, 130, 246);
+}
+.form label input::placeholder {
+  font-size: 18px;
+}
+label select {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border-color: rgb(229, 231, 235);
+  font-size: 18px;
+  color: #4b5563;
+}
+label h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+label textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  resize: none;
+}
+label textarea::placeholder {
+  font-size: 18px;
+}
+.form button {
+  width: 100%;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  color: #fff;
+  background-position: left;
+  background-size: 200% 100%;
+  transition: background-position 0.2s ease;
+}
+.form button:hover {
+  background-position: right;
+}
+.form img {
+  width: 20px;
+  margin: 0 7px -5px 0;
+  transition: all 0.3s ease;
+}
+.form button:hover img {
+  transform: scale(1.1);
+}
+/* second part start */
+.supportOptions {
+  width: 50%;
+  margin-top: 50px;
+  padding: 15px;
+}
+.supportBox img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  padding: 12px;
+  margin-right: 20px;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+}
+.supportOptions h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.supportBox {
+  display: flex;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px auto;
+  box-shadow: -2px 5px 6px rgba(0, 0, 0, 0.12), 2px -3px 2px rgba(0, 0, 0, 0.08);
+}
+.supportBox h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.supportBox p {
+  font-size: 18px;
+  color: #4b5563;
+  line-height: 25px;
+}
+
+/* questions section */
+.questions {
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: -2px 5px 6px rgba(0, 0, 0, 0.12), 2px -3px 2px rgba(0, 0, 0, 0.08);
+}
+.questionsHeader {
+  text-align: center;
+}
+.questionsHeader h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+.questionsHeader p {
+  font-size: 20px;
+  color: #4b5563;
+}
+
+/* accardion */
+.question {
+  margin: 20px 0;
+}
+
+.questionOpen img {
+  width: 20px;
+  height: 20px;
+}
+.questionOpen {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 900px;
+  padding: 15px;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: rgb(229, 231, 235);
+}
+.questionSection {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  border-color: rgb(229, 231, 235);
+  margin: 0px auto;
+  width: 900px;
+  padding: 15px;
+  cursor: pointer;
+}
+.questionSection img {
+  width: 20px;
+  height: 20px;
+}
+
+.question p {
+  border-radius: 12px;
+  margin-top: 10px;
+  width: 900px;
+  margin: 0px auto;
+  padding: 15px;
+  color: #4b5563;
+  border: 2px solid;
+  border-top: 0;
+  border-color: rgb(229, 231, 235);
+}

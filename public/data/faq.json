@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "How do I get started with LinguaCraft?",
+    "answer": "Getting started is easy! Simply create a free account, take our placement test to determine your English level, and choose from our personalized course recommendations. You can start learning immediately with our interactive lessons."
+  },
+  {
+    "id": 2,
+    "question": "What English levels do you support?",
+    "answer": "We support all levels from complete beginner (A1) to advanced (C2) according to the Common European Framework of Reference (CEFR). Our adaptive learning system adjusts to your pace and skill level."
+  },
+  {
+    "id": 3,
+    "question": "Can I practice speaking with native speakers?",
+    "answer": "Yes! Our community features include live conversation sessions with native speakers, speaking clubs, and one-on-one tutoring sessions. You can also practice with AI-powered speaking exercises available 24/7."
+  },
+  {
+    "id": 4,
+    "question": "Are the certificates recognized?",
+    "answer": "Our certificates are recognized by many employers and educational institutions. We partner with international language assessment organizations to ensure our certifications meet global standards."
+  },
+  {
+    "id": 5,
+    "question": "How much does LinguaCraft cost?",
+    "answer": "We offer a free tier with basic lessons and community access. Premium plans start at $19/month and include unlimited access to all courses, live sessions, and personalized tutoring. We also offer annual discounts."
+  },
+  {
+    "id": 6,
+    "question": "Can I learn offline?",
+    "answer": "Yes! Our mobile app allows you to download lessons for offline study. You can access vocabulary, grammar exercises, and audio content without an internet connection."
+  },
+  {
+    "id": 7,
+    "question": "How long does it take to see results?",
+    "answer": "Most students see noticeable improvement within 2-4 weeks of consistent daily practice. Our adaptive learning system tracks your progress and provides personalized recommendations to accelerate your learning."
+  },
+  {
+    "id": 8,
+    "question": "Do you offer business English courses?",
+    "answer": "Absolutely! We have specialized business English courses covering presentations, meetings, negotiations, email writing, and industry-specific vocabulary for various professional fields."
+  }
+]
