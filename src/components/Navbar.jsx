@@ -38,8 +38,8 @@ function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-link" to="/dashboard">
-                    Dashboard
+                  <Link className="dropdown-link" to="/contact">
+                    Contact
                   </Link>
                 </li>
                 <li>

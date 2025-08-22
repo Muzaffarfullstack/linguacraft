@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 
 function Courses() {
   const { title } = useParams();
-  console.log(title);
 
   useEffect(() => {
     document.title = "Our Courses";
