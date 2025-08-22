@@ -57,8 +57,12 @@ function Navbar() {
           </div>
 
           <div className="register-section">
-            <button className="login">Login</button>
-            <button className="signUp">Sign Up</button>
+            <Link className="login" to="login">
+              Login
+            </Link>
+            <Link className="signUp" to="signup">
+              Sign Up
+            </Link>
 
             <div className="menu-section">
               <img

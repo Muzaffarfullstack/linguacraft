@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import About from "./pages/about/About";
 import Courses from "./pages/courses/Courses";
 import Contact from "./pages/contact/Contact";
+import Login from "./pages/auth/Login";
+import Signup from "./pages/auth/Signup";
 
 function App() {
   const routes = createBrowserRouter([
@@ -28,6 +30,14 @@ function App() {
         {
           path: "/contact",
           element: <Contact />,
+        },
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/signup",
+          element: <Signup />,
         },
       ],
     },

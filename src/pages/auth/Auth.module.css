@@ -1,0 +1,147 @@
+.background {
+  background: #eff6ff;
+  width: 100vw;
+  height: 100vh;
+}
+.form {
+  background: #fff;
+  display: inline-block;
+  padding: 15px;
+  margin: 0 25%;
+  width: 550px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.05), 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.loginForm {
+  margin-top: 50px;
+}
+.form h1 {
+  color: #1f2937;
+  font-size: 30px;
+  margin: 10px auto;
+  text-align: center;
+}
+.form p {
+  font-size: 18px;
+  color: #4b4563;
+  text-align: center;
+  margin: 20px auto;
+}
+.formContainer {
+  padding: 15px;
+}
+.fullname {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.fullname label {
+  width: 215px;
+}
+.row input {
+  width: 89%;
+}
+.email,
+.password {
+  margin-bottom: 30px;
+}
+.row img {
+  margin-bottom: -3px;
+}
+input::placeholder {
+  font-size: 18px;
+  z-index: 10px;
+}
+.spaan {
+  color: #374151;
+  font-size: 18px;
+  font-weight: 550;
+  display: block;
+  margin-bottom: 10px;
+}
+label {
+  border: 2px solid;
+  border-color: #e5e7eb;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input {
+  border: 0;
+  margin-left: 10px;
+  padding: 5px;
+}
+input:focus {
+  border: 0;
+  outline: none;
+}
+
+label img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+.createBtn {
+  display: block;
+  margin: 20px auto;
+  width: 95%;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  font-size: 20px;
+  color: #fff;
+  font-weight: 550;
+  transition: all 0.5s ease;
+}
+.createBtn:hover {
+  transform: scale(1.05);
+}
+.createBtn:hover img {
+  margin-left: 15px;
+}
+.createBtn img {
+  width: 20px;
+  position: absolute;
+  height: 20px;
+  margin: 2px 0 0 10px;
+  transition: all 0.3s ease;
+}
+small {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #4b4563;
+}
+.socialBtn {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 45px;
+}
+.socialBtn a:hover {
+  border-color: #2563eb;
+}
+.socialBtn a {
+  text-decoration: none;
+  border: 2px solid #e5e7eb;
+  padding: 12px;
+  width: 200px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #4b4563;
+  transition: all 0.5s ease;
+}
+
+.signIn {
+  text-decoration: none;
+  font-weight: 550;
+  color: #2563eb;
+}
+.resetPassword {
+  text-decoration: none;
+  color: #2563eb;
+  font-size: 17px;
+}
+.resetPassword:hover {
+  text-decoration: underline;
+}
