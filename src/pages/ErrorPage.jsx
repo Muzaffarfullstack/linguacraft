@@ -12,7 +12,7 @@ function ErrorPage() {
       <>
         <div className=" error-container">
           <div className="container">
-            <h1>404</h1>
+            <h1 className="error-title">404</h1>
             <h2>Oops! Page Not Found</h2>
             <p className="first-paragraph">
               It looks like the page you're looking for doesn't exist. Don't
@@ -84,7 +84,7 @@ function ErrorPage() {
     <>
       <div className=" error-container">
         <div className="container">
-          <h1>500</h1>
+          <h1 className="error-title">500</h1>
           <h2>Oops! Something went wrong</h2>
           <p className="first-paragraph">
             It looks like the page you're looking for doesn't exist. Don't
