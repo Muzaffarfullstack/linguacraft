@@ -40,9 +40,8 @@ function Login() {
             <a href="">Facebook</a>
           </div>
 
-          <p>
-            {" "}
-            Don't have an account ?{" "}
+          <p className={styles.foter}>
+            Don't have an account ?
             <Link to="login" className={styles.signIn}>
               Sign up for free
             </Link>

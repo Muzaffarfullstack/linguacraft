@@ -19,7 +19,7 @@ function Signup() {
                 </label>
               </div>
 
-              <div className="lastname">
+              <div className={styles.lastname}>
                 <span className={styles.spaan}>Last Name</span>
                 <label>
                   <img src="/assets/singleuser.png" alt="" />
@@ -63,10 +63,9 @@ function Signup() {
             <a href="">Facebook</a>
           </div>
 
-          <p>
-            {" "}
-            Already have an account ?{" "}
-            <Link to="login" className={styles.signIn}>
+          <p className={styles.foter}>
+            Already have an account ?
+            <Link to="/login" className={styles.signIn}>
               Sign in here
             </Link>
           </p>
