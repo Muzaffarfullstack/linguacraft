@@ -116,7 +116,7 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .container h1 {
+  .error-title {
     font-size: 70px;
   }
   .container h2 {

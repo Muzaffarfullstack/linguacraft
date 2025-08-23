@@ -31,7 +31,7 @@ function MasterEnglish() {
               <figure>
                 <img src="/assets/new.png" alt="book" />
               </figure>
-              <h1>Interactive Lessons</h1>
+              <h1 className="englishCard-title">Interactive Lessons</h1>
               <p>
                 Engaging content that adopts to your <br /> pace
               </p>
@@ -40,21 +40,21 @@ function MasterEnglish() {
               <figure>
                 <img src="/assets/trophy.png" alt="trophy" />
               </figure>
-              <h1>Track Progress</h1>
+              <h1 className="englishCard-title">Track Progress</h1>
               <p>See your improvement in real-time</p>
             </div>
             <div className="card">
               <figure>
                 <img src="/assets/user.png" alt="user" />
               </figure>
-              <h1>Live Community</h1>
+              <h1 className="englishCard-title">Live Community</h1>
               <p>Practise with native speakers worldwide</p>
             </div>
             <div className="card">
               <figure>
                 <img src="/assets/goal.png" alt="goal" />
               </figure>
-              <h1>Personalized Goals</h1>
+              <h1 className="englishCard-title">Personalized Goals</h1>
               <p>Achieve milestones at your own pace</p>
             </div>
           </div>
