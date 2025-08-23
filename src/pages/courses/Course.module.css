@@ -181,3 +181,42 @@
 .filterCourses button:hover {
   background-position: right;
 }
+
+@media only screen and (max-width: 576px) {
+  .exploreHeader h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .exploreHeader p {
+    font-size: 18px;
+    width: 350px;
+    text-align: center;
+  }
+  .filterCourses {
+    gap: 15px;
+    overflow: scroll;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+    border-radius: 5px;
+  }
+  .filterCourses button {
+    font-size: 14px;
+    padding: 5px 35px;
+    margin: 10px auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 340px;
+  }
+  .card .btn {
+    font-size: 15px;
+  }
+}

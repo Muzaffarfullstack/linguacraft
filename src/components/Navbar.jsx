@@ -57,10 +57,10 @@ function Navbar() {
           </div>
 
           <div className="register-section">
-            <Link className="login" to="login">
+            <Link className="login" to="/login">
               Login
             </Link>
-            <Link className="signUp" to="signup">
+            <Link className="signUp" to="/signup">
               Sign Up
             </Link>
 
