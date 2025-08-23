@@ -92,7 +92,7 @@ function Cards() {
         {isPending && <p>Loading...</p>}
         {error && <p>{error.message}</p>}
         {data &&
-          state.filteredCourses.map((card, index) => {
+          state.filteredCourses.map((card) => {
             const colorIndex = card.id % 6;
             return (
               <div
