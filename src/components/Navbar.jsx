@@ -96,8 +96,12 @@ function Navbar() {
         </ul>
 
         <div className="drawer-buttons" onClick={closeDrawer}>
-          <button className="login-1">Login</button>
-          <button className="signUp-2">Sign Up</button>
+          <Link className="login-1 drawer-btn" to="/login">
+            Login
+          </Link>
+          <Link className="signUp-2 drawer-btn" to="/signup">
+            Sign Up
+          </Link>
         </div>
         <button className="close-drawer" onClick={closeDrawer}>
           &times;

@@ -114,3 +114,23 @@
   width: 50px;
   margin-bottom: 5px;
 }
+
+@media only screen and (max-width: 576px) {
+  .container h1 {
+    font-size: 70px;
+  }
+  .container h2 {
+    font-size: 27px;
+  }
+  .first-paragraph {
+    width: 320px;
+  }
+  .back-home {
+    font-size: 18px;
+  }
+  .action-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
