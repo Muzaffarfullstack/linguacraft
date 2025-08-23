@@ -1,6 +1,5 @@
 import Creator from "../components/Creator";
 import Feedback from "../components/Feedback";
-import Footer from "../components/Footer";
 import Learning from "../components/Learning";
 import LearningJourney from "../components/LearningJourney";
 import MasterEnglish from "../components/MasterEnglish";
@@ -29,7 +28,6 @@ function Home() {
       <Feedback />
       <Stats />
       <Reason />
-      <Footer />
     </div>
   );
 }

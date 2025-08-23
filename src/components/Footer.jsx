@@ -31,13 +31,13 @@ function Footer() {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link>Courses</Link>
+              <Link to="/courses">Courses</Link>
             </li>
             <li>
-              <Link>Community</Link>
+              <Link to="/community">Community</Link>
             </li>
             <li>
-              <Link>Help Center</Link>
+              <Link to="/contact">Help Center</Link>
             </li>
           </ul>
         </div>

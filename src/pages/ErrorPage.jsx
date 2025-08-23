@@ -34,7 +34,7 @@ function ErrorPage() {
                   </Link>
                 </div>
                 <div className="box">
-                  <Link className="box-link">
+                  <Link className="box-link" to="/courses">
                     <img src="/assets/open-book.png" alt="" />
                     <h5>Browse Courses</h5>
                     <p className="box-paragraph">
@@ -52,7 +52,7 @@ function ErrorPage() {
                   </Link>
                 </div>
                 <div className="box">
-                  <Link className="box-link">
+                  <Link className="box-link" to="/contact">
                     <img src="/assets/chat.png" alt="" />
                     <h5>Get Help</h5>
                     <p className="box-paragraph">
@@ -90,7 +90,7 @@ function ErrorPage() {
             It looks like the page you're looking for doesn't exist. Don't
             worry, even <br /> the best learners sometimes take a wrong turn!
           </p>
-          <Link className="btn back-home">
+          <Link className="btn back-home" to="/">
             <img src="assets/arrow-back.png" alt="logo" /> Back to Home
           </Link>
           <div className="action-container">
@@ -106,7 +106,7 @@ function ErrorPage() {
                 </Link>
               </div>
               <div className="box">
-                <Link className="box-link">
+                <Link className="box-link" to="/courses">
                   <img src="/assets/open-book.png" alt="" />
                   <h5>Browse Courses</h5>
                   <p className="box-paragraph">
@@ -115,7 +115,7 @@ function ErrorPage() {
                 </Link>
               </div>
               <div className="box">
-                <Link className="box-link">
+                <Link className="box-link" to="/community">
                   <img src="/assets/users.png" alt="" />
                   <h5>Join Community</h5>
                   <p className="box-paragraph">
@@ -124,7 +124,7 @@ function ErrorPage() {
                 </Link>
               </div>
               <div className="box">
-                <Link className="box-link">
+                <Link className="box-link" to="/contact">
                   <img src="../../public/assets/chat.png" alt="" />
                   <h5>Get Help</h5>
                   <p className="box-paragraph">

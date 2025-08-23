@@ -2,7 +2,6 @@ import "../../index.css";
 import CoreValues from "./CoreValues";
 import Description from "./Description";
 import Mission from "./Mission";
-import Footer from "../../components/Footer";
 import Team from "./Team";
 import CallAction from "./CallAction";
 
@@ -14,7 +13,6 @@ function About() {
       <CoreValues />
       <Team />
       <CallAction />
-      <Footer />
     </section>
   );
 }
