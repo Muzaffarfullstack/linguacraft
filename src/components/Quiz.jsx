@@ -99,10 +99,11 @@ function Quiz() {
                             setIsAnswer(true);
                           }
                         }}
-                        className={`${className}`}
+                        className={`${className} parentContainer`}
                       >
                         <label className={`question-options`}>
                           <input
+                            className="quiz-input"
                             type="radio"
                             value={option}
                             name={`question-${currentIndex}`}
@@ -110,12 +111,12 @@ function Quiz() {
                           <span>{alphabet}</span>
                           <p> {option}</p>
                           <img
-                            src="../../public/assets/check-mark.png"
+                            src="/assets/check-mark.png"
                             alt="checkbox"
                             className="check"
                           />
                           <img
-                            src="../../public/assets/delete.png"
+                            src="/assets/delete.png"
                             alt="delete"
                             className="delete"
                           />
