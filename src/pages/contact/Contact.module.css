@@ -259,7 +259,84 @@ textarea::placeholder {
   border-top: 0;
   border-color: rgb(229, 231, 235);
 }
+@media only screen and (max-width: 992px) {
+  .text p {
+    margin: 15px auto;
+    font-size: 18px;
+  }
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contactBox {
+    width: 40vw;
+  }
+  .contactBox span {
+    font-size: 18px;
+  }
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .form,
+  .supportBox {
+    width: 90vw;
+    position: relative;
+  }
+  .formLabel {
+    width: 40vw;
+  }
+  .formBtn {
+    padding: 10px 35vw;
+  }
+  .questionSection,
+  .questionOpen,
+  .question p {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text p {
+    margin: 15px auto;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+  }
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90vw;
+  }
+  .contactBox span {
+    font-size: 18px;
+  }
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    width: 90vw;
+    position: relative;
+  }
 
+  .formBtn {
+    padding: 10px 30vw;
+    white-space: nowrap;
+  }
+  .supportOptions h1 {
+    font-size: 30px;
+    white-space: nowrap;
+  }
+  .supportBox,
+  .question {
+    width: 90vw;
+  }
+  .questionSection,
+  .questionOpen,
+  .question p {
+    width: 80vw;
+  }
+}
 @media only screen and (max-width: 576px) {
   .text p {
     margin: 15px auto;
@@ -269,10 +346,14 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
   }
+  .contactBox {
+    max-width: 570px;
+    width: 90vw;
+  }
   .form,
   .supportOptions,
   .questions {
-    width: 350px;
+    max-width: 570px;
   }
   .formWrapper,
   .formHeader {
@@ -292,7 +373,7 @@ textarea::placeholder {
   }
   .formBtn {
     position: relative;
-    padding: 10px 90px;
+    padding: 10px 80px;
   }
 
   .formBtn img {

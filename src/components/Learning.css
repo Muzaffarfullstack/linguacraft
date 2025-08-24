@@ -105,16 +105,42 @@
 .path-card:hover img {
   transform: scale(1.1);
 }
+@media screen and (max-width: 992px) {
+  .path-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .path-card {
+    max-width: 800px;
+    width: 90%;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  .path-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .learn-path_container {
+    margin-bottom: 30px;
+  }
+
+  .path-card {
+    width: 550px;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 576px) {
   .path-text h1 {
     font-size: 25px;
   }
   .path-cards {
+    display: flex;
     flex-direction: column;
     margin: 0.67rem;
   }
   .path-card {
     margin: 0 auto;
+    max-width: 300px;
   }
 }

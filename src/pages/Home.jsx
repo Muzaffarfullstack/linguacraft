@@ -1,5 +1,5 @@
 import Creator from "../components/Creator";
-import Feedback from "../components/Feedback";
+// import Feedback from "../components/Feedback";
 import Learning from "../components/Learning";
 import LearningJourney from "../components/LearningJourney";
 import MasterEnglish from "../components/MasterEnglish";
@@ -25,7 +25,7 @@ function Home() {
       <Creator />
       <LearningJourney />
       <Quiz />
-      <Feedback />
+      {/* <Feedback /> */}
       <Stats />
       <Reason />
     </div>

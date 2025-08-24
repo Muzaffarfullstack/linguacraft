@@ -6,6 +6,7 @@ function Stats() {
 
   return (
     <div className="stats-wrapper">
+      <h1 className="container stats-heading">Our statistics</h1>
       <div className="container stats-container">
         {isPending && <p>Loading...</p>}
         {error && { error }}
