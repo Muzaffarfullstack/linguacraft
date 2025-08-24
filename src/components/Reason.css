@@ -49,8 +49,8 @@
 }
 .reason-video img {
   width: 75px;
+  left: 45%;
   position: absolute;
-  right: 27.4%;
   margin-top: 10px;
   height: 75px;
   border-radius: 40px;
