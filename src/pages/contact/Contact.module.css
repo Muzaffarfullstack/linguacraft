@@ -268,7 +268,6 @@ textarea::placeholder {
   .contactBoxes {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .form {
     width: 350px;
@@ -280,5 +279,20 @@ textarea::placeholder {
   }
   .form h2 {
     font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .formLabel {
+    width: 95%;
+  }
+  .formEmail {
+    margin-top: -30px;
+  }
+  .formBtn {
+    width: 280px;
+    font-size: 14px;
+    flex: 1;
+  }
+  .formBtn img {
+    display: none;
   }
 }

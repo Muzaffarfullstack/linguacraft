@@ -17,7 +17,7 @@ function Form() {
                 </label>
               </div>
 
-              <div className={styles.formHead}>
+              <div className={`${styles.formHead} ${styles.formEmail}`}>
                 <span className={styles.title}>Email</span>
                 <label className={styles.formLabel}>
                   <input type="email" placeholder="your@email" />
