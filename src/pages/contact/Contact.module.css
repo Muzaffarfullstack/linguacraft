@@ -269,7 +269,9 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
   }
-  .form {
+  .form,
+  .supportOptions,
+  .questions {
     width: 350px;
   }
   .formWrapper,
@@ -295,5 +297,26 @@ textarea::placeholder {
 
   .formBtn img {
     display: none;
+  }
+  .questionsHeader h1 {
+    font-size: 25px;
+  }
+  .questionsHeader p {
+    width: 300px;
+  }
+  .accardion {
+    width: 350px;
+  }
+  .questionSection h3 {
+    font-size: 10px;
+  }
+  .questionOpen,
+  .questionSection {
+    width: 300px;
+    line-height: 25px;
+  }
+  .question p {
+    width: 300px;
+    line-height: 25px;
   }
 }

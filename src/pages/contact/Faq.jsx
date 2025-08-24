@@ -50,7 +50,9 @@ function Faq() {
                     )}
                   </div>
 
-                  {openId === item.id && <p>{item.answer}</p>}
+                  {openId === item.id && (
+                    <p className={styles.answer}>{item.answer}</p>
+                  )}
                 </div>
               );
             })}
