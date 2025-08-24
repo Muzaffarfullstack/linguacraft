@@ -8,31 +8,43 @@ function Form() {
         <div className={styles.formContainer}>
           <form className={styles.form}>
             <h2>Send us a Message</h2>
+
             <div className={styles.formHeader}>
-              <label className={styles.firstLabel}>
-                <h4>Name</h4>
-                <input type="text" placeholder="Your full name" />
-              </label>
+              <div className={styles.formHead}>
+                <span className={styles.title}>Name</span>
+                <label className={styles.formLabel}>
+                  <input type="text" placeholder="Your full name" />
+                </label>
+              </div>
+
+              <div className={styles.formHead}>
+                <span className={styles.title}>Email</span>
+                <label className={styles.formLabel}>
+                  <input type="email" placeholder="your@email" />
+                </label>
+              </div>
+            </div>
+
+            <div className={styles.category}>
+              <span className={styles.title}>Category</span>
               <label>
-                <h4>Email</h4>
-                <input type="email" placeholder="your@email.com" />
+                <select className={styles.categoryForm}>
+                  <option value="">Select a category</option>
+                  <option value="">General Inquiry</option>
+                  <option value="">Technical Support</option>
+                  <option value="">Billing & Payments</option>
+                  <option value="">Partnership</option>
+                  <option value="">Feedback</option>
+                </select>
               </label>
             </div>
-            <label>
-              <select>
-                <option value="select">Select a category</option>
-                <option value="">General Inquiry</option>
-                <option value="">Technical Support</option>
-                <option value="">Billing & Payments</option>
-                <option value="">Partnership</option>
-                <option value="">Feedback</option>
-              </select>
-            </label>
-            <label>
-              <h5>Message</h5>
+
+            <div>
+              <span className={styles.title}>Message</span>
               <textarea placeholder="Tell us how we can help you..."></textarea>
-            </label>
-            <button>
+            </div>
+
+            <button className={`${styles.formBtn}`}>
               <img src="/assets/send.png" alt="" />
               Send Message
             </button>

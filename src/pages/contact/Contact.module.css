@@ -86,85 +86,79 @@
 }
 .formHeader {
   display: flex;
-  justify-content: space-between;
-  margin: 10px 0;
+  gap: 50px;
+  margin-bottom: 25px;
 }
-.firstLabel {
-  margin-right: 10px;
-}
-
-label h4 {
-  font-weight: 550;
+.title {
   font-size: 18px;
+  font-weight: 550;
   color: #1f2937;
-}
-.form label {
+  margin: 10px 5px;
   display: block;
+}
+.formHead {
+  display: flex;
   flex-direction: column;
 }
-.form label input {
-  width: 256px;
-  padding: 10px;
+.formLabel {
+  width: 250px;
+}
+.categoryForm {
   margin: 10px auto;
-  border-radius: 10px;
-  border-color: rgb(229, 231, 235);
-  height: 50px;
+  border: 0;
+  width: 95%;
+  margin-bottom: 30px;
 }
-.form label > input:focus {
-  border-color: rgb(59, 130, 246);
+.categoryForm:focus {
+  outline: none;
 }
-.form label input::placeholder {
-  font-size: 18px;
-}
-label select {
-  width: 100%;
-  padding: 10px;
-  margin: 15px 0;
-  border-radius: 10px;
-  border-color: rgb(229, 231, 235);
-  font-size: 18px;
+option {
+  width: 20px;
   color: #4b5563;
 }
-label h5 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #1f2937;
-}
-label textarea {
-  width: 100%;
-  height: 150px;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 15px;
+textarea {
   resize: none;
-}
-label textarea::placeholder {
-  font-size: 18px;
-}
-.form button {
-  width: 100%;
-  font-size: 18px;
-  padding: 15px;
-  border-radius: 10px;
   border: 0;
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+  position: relative;
+  top: 10px;
+  border: 2px solid rgb(229, 231, 235);
+  height: 100%;
+  min-height: 100px;
+  margin-bottom: 30px;
+}
+textarea:focus {
+  outline: none;
+}
+textarea::placeholder {
+  font-size: 18px;
+}
+.formBtn {
+  padding: 7px 200px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 15px;
   cursor: pointer;
   background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
   color: #fff;
-  background-position: left;
-  background-size: 200% 100%;
-  transition: background-position 0.2s ease;
+  transition: all 0.5s ease;
+  transform: scale(1);
 }
-.form button:hover {
-  background-position: right;
+.formBtn:hover {
+  transform: scale(1.05);
 }
-.form img {
+.formBtn:hover img {
+  margin-right: 10px;
+}
+.formBtn img {
+  transition: all 0.5s ease;
   width: 20px;
-  margin: 0 7px -5px 0;
-  transition: all 0.3s ease;
+  height: 20px;
+  margin: 5px 5px 0 0;
 }
-.form button:hover img {
-  transform: scale(1.1);
-}
+
 /* second part start */
 .supportOptions {
   width: 50%;
@@ -264,4 +258,27 @@ label textarea::placeholder {
   border: 2px solid;
   border-top: 0;
   border-color: rgb(229, 231, 235);
+}
+
+@media only screen and (max-width: 576px) {
+  .text p {
+    margin: 15px auto;
+    width: 350px;
+  }
+  .contactBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form {
+    width: 350px;
+  }
+  .formWrapper,
+  .formHeader {
+    display: flex;
+    flex-direction: column;
+  }
+  .form h2 {
+    font-size: 20px;
+  }
 }

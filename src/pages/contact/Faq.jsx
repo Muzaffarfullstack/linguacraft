@@ -11,10 +11,8 @@ function Faq() {
   const checkId = (id) => {
     if (openId === id) {
       setOpenId(null);
-      //   setAnswerOpen(false);
     } else {
       setOpenId(id);
-      //   setAnswerOpen(true);
     }
   };
 
