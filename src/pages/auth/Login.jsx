@@ -41,7 +41,7 @@ function Login() {
           </div>
 
           <p className={styles.foter}>
-            Don't have an account ?
+            Don't have an account ?{" "}
             <Link to="login" className={styles.signIn}>
               Sign up for free
             </Link>

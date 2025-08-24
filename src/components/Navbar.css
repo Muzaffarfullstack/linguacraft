@@ -225,6 +225,22 @@
   background: rgba(0, 0, 0, 0.35);
   overflow-y: hidden;
 }
+@media only screen and (max-width: 768px) {
+  .explore-section,
+  .login,
+  .signUp {
+    display: none;
+  }
+  .drawer {
+    display: block;
+  }
+  .menu-section .menu-bar {
+    background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
 
 @media only screen and (max-width: 576px) {
   .explore-section,

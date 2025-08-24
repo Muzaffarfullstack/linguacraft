@@ -139,6 +139,43 @@ figure img {
     box-shadow: 5px 5px 25px rgba(59, 130, 246, 0.6);
   }
 }
+@media only screen and (max-width: 992px) {
+  .master-english {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .card {
+    max-width: 850px;
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .master-english {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .english-text h1 {
+    font-size: 24px;
+  }
+  .english-text p {
+    font-size: 18px;
+  }
+  .english-card {
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  .card {
+    max-width: 280px;
+  }
+  .englishCard-title {
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+}
 
 @media only screen and (max-width: 576px) {
   .master-english {
@@ -159,7 +196,7 @@ figure img {
     margin-bottom: 50px;
   }
   .card {
-    width: 350px;
+    max-width: 350px;
     margin: 25px auto;
   }
 }

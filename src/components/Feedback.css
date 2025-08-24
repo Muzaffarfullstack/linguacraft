@@ -106,6 +106,40 @@
   margin: 10px 15px;
 }
 
+@media only screen and (max-width: 992px) {
+  .card-large {
+    width: 97%;
+    margin: 15px -40px;
+  }
+  .testimonial-wrapper {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .side-cards {
+    width: 90vw;
+    margin: 15px -50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .feedback-text h1 {
+    font-size: 30px;
+  }
+  .feedback-text p {
+    font-size: 23px;
+  }
+  .testimonial-wrapper {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .card-large {
+    width: 100%;
+    margin: 15px -40px;
+  }
+  .side-cards {
+    width: 93vw;
+    margin: 15px -50px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .feedback-text h1 {
     white-space: nowrap;

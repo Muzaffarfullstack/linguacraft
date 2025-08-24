@@ -53,6 +53,27 @@
 .founder-container {
   margin-top: 50px;
 }
+@media only screen and (max-width: 992px) {
+  .mission-container {
+    flex-direction: column;
+  }
+  .misson,
+  .vision,
+  .mission-reason {
+    width: 90vw;
+  }
+  .mission-reason {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mission-container {
+    flex-direction: column;
+  }
+  .mission-reason {
+    margin-left: 10px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .mission-container {
     flex-direction: column;
@@ -66,7 +87,6 @@
   }
   .mission-reason {
     position: relative;
-    right: 40px;
     width: 100%;
   }
   .mission-reason h1 {
