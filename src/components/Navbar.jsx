@@ -42,11 +42,11 @@ function Navbar() {
                     Contact
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link className="dropdown-link" to="/community">
                     Community
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link className="dropdown-link" to="/about">
                     About
@@ -85,11 +85,11 @@ function Navbar() {
             <Link to="/courses">Courses</Link>
           </li>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/contact">Contact</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/community">Community</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/about">About</Link>
           </li>
