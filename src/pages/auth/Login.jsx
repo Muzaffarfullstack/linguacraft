@@ -1,8 +1,11 @@
 import styles from "./Auth.module.css";
 import "../../index.css";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 function Login() {
+  const { title } = useParams();
+  document.title = "Welcome back | LinguaCraft";
   return (
     <div className={styles.background}>
       <div className="container">

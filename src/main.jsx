@@ -5,6 +5,10 @@ import { Toaster } from "sonner";
 
 createRoot(document.getElementById("root")).render(
   <>
-    <App /> <Toaster position="top-center" />
+    <App />{" "}
+    <Toaster
+      position="top-center"
+      style={{ fontSize: "20px", color: "#1f2937" }}
+    />
   </>
 );

@@ -259,6 +259,38 @@ textarea::placeholder {
   border-top: 0;
   border-color: rgb(229, 231, 235);
 }
+
+@media only screen and (max-width: 1200px) {
+  .contactBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contactBox {
+    max-width: 600px;
+    width: 45vw;
+  }
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .form,
+  .supportBox,
+  .questions {
+    width: 90vw;
+    position: relative;
+  }
+  .formLabel {
+    width: 40vw;
+  }
+  .formBtn {
+    padding: 10px 35vw;
+  }
+  .questionSection,
+  .questionOpen,
+  .question p {
+    width: 80vw;
+  }
+}
 @media only screen and (max-width: 992px) {
   .text p {
     margin: 15px auto;
@@ -287,7 +319,8 @@ textarea::placeholder {
     width: 40vw;
   }
   .formBtn {
-    padding: 10px 35vw;
+    padding: 10px 30vw;
+    white-space: nowrap;
   }
   .questionSection,
   .questionOpen,

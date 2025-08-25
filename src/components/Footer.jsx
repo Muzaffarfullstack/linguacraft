@@ -19,7 +19,12 @@ function Footer() {
           <div className="social-media">
             <img src="/assets/facebook.png" alt="" />
             <img src="/assets/twitter.png" alt="" />
-            <img src="/assets/instagram.png" alt="" />
+            <a
+              href="https://www.instagram.com/linguacraft_official"
+              target="_blank"
+            >
+              <img src="/assets/instagram.png" alt="" />
+            </a>
             <img src="/assets/youtube.png" alt="" />
           </div>
         </div>

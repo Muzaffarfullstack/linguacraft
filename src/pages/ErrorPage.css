@@ -114,7 +114,38 @@
   width: 50px;
   margin-bottom: 5px;
 }
-
+@media only screen and (max-width: 1200px) {
+  .box {
+    max-width: 250px;
+    width: 90vw;
+  }
+  .action-boxes {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .action-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .box {
+    max-width: 500px;
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .action-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .box {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 90vw;
+  }
+}
 @media only screen and (max-width: 576px) {
   .error-title {
     font-size: 70px;
@@ -132,5 +163,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+  }
+  .box {
+    margin: 0 auto;
   }
 }

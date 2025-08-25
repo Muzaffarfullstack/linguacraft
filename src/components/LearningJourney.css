@@ -100,6 +100,20 @@
 .journey-cards :nth-child(4) .journey-progress > div {
   width: 100%;
 }
+@media screen and (max-width: 1200px) {
+  .journey-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .inner-card {
+    max-width: 500px;
+    width: 45vw;
+  }
+  .journey-number {
+    position: relative;
+    left: 40%;
+  }
+}
 @media screen and (max-width: 992px) {
   .journey-cards {
     display: flex;
@@ -107,8 +121,9 @@
   }
   .inner-card,
   .journey-progress {
-    max-width: 950px;
-    width: 98%;
+    max-width: 750px;
+    width: 90vw;
+    margin-right: 50px;
   }
   .journey-number {
     position: relative;

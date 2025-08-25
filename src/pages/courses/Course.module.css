@@ -1,3 +1,15 @@
+[data-sonner-toast][data-type="error"] {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+  font-size: 20px;
+}
+[data-sonner-toast] {
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  padding: 14px;
+}
+
 .exploreHeader {
   text-align: center;
   padding: 30px 0;
@@ -181,7 +193,32 @@
 .filterCourses button:hover {
   background-position: right;
 }
-
+@media only screen and (max-width: 1200px) {
+  .filterCourses {
+    gap: 15px;
+    overflow: scroll;
+  }
+  .filterCourses button {
+    padding: 1px 35px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+    border-radius: 5px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    margin: 30px 0;
+    max-width: 990px;
+    width: 45vw;
+  }
+}
 @media only screen and (max-width: 992px) {
   .filterCourses {
     gap: 15px;
@@ -240,7 +277,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     flex: 2;
-    min-width: 768px;
+    max-width: 768px;
+    width: 30vw;
   }
 
   .btn {

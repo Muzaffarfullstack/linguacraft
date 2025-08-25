@@ -286,7 +286,7 @@
     white-space: wrap;
     width: 100%;
     position: absolute;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     top: 1px;
     font-size: 12px;
     display: flex;
