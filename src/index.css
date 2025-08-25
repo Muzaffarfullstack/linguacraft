@@ -19,3 +19,17 @@
   cursor: pointer;
   font: 1.2rem;
 }
+
+/* toaster design */
+
+[data-sonner-toast][data-type="error"] {
+  background-color: #fef2f2;
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 20px;
+}
+[data-sonner-toast] {
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  padding: 14px;
+}

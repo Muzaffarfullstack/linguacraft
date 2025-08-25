@@ -2,6 +2,7 @@ import styles from "./Course.module.css";
 import "../../index.css";
 import { useFetch } from "../../hooks/useFetch";
 import { useReducer, useEffect } from "react";
+import { toast } from "sonner";
 
 function Cards() {
   const { data, isPending, error } = useFetch("/data/course.json");
@@ -16,6 +17,10 @@ function Cards() {
     allCourses: [],
     filteredCourses: [],
   });
+
+  const alertFunc = () => {
+    toast.error("Inner cards are not available yet, please come back later");
+  };
 
   const reducer = (state, action) => {
     const { type, payload } = action;
@@ -141,7 +146,7 @@ function Cards() {
                     </h3>
                     <h2>{card.price}</h2>
                   </div>
-                  <button className={styles.btn}>
+                  <button className={styles.btn} onClick={alertFunc}>
                     <img src="/assets/open-book.png" alt="" />
                     {card.buttonText}
                   </button>

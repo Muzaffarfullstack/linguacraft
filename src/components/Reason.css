@@ -81,6 +81,14 @@
 .reason-video img:hover {
   background: #d6caca33;
 }
+@media only screen and (max-width: 1200px) {
+  .reason-text,
+  .reason-video {
+    max-width: 500px;
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
 @media only screen and (max-width: 992px) {
   .reason-section {
     flex-direction: column;

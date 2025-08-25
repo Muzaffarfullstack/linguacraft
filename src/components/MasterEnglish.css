@@ -20,12 +20,13 @@
   font-size: 1.125rem;
   line-height: 1.87rem;
   color: #4b5563;
-  margin-bottom: 0.625rem;
+  margin-bottom: 1rem;
 }
 .btn-free {
   background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
   color: #fff;
   margin-right: 0.93rem;
+  text-decoration: none;
 }
 .btn-free:hover {
   transform: scale(1.1);
@@ -36,6 +37,7 @@
   background: transparent;
   border: 2px solid #374151;
   color: #374151;
+  text-decoration: none;
 }
 .btn-explore:hover {
   transform: scale(1.1);

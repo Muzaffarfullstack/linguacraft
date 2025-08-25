@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import "./MasterEnglish.css";
 import "../index.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function MasterEnglish() {
   useEffect(() => {
@@ -23,8 +24,12 @@ function MasterEnglish() {
               Interactive lessons, personalized progress, and daily practise
               <br /> designed to make you fluent faster than ever before
             </p>
-            <button className="btn btn-free">Get Started Free</button>
-            <button className="btn btn-explore">Explore Feature</button>
+            <Link to="/login" className="btn btn-free">
+              Get Started Free
+            </Link>
+            <Link to="/courses" className="btn btn-explore">
+              Explore Feature
+            </Link>
           </div>
           <div className="english-card" data-aos="fade-left">
             <div className="card">
