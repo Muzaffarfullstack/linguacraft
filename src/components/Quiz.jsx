@@ -3,6 +3,7 @@ import "../index.css";
 import { useFetch } from "../hooks/useFetch";
 import { useState } from "react";
 import Result from "./Result";
+import { Toaster, toast } from "sonner";
 
 function Quiz() {
   const {
@@ -35,7 +36,7 @@ function Quiz() {
 
   const handleNextBtn = () => {
     if (!selected) {
-      alert("Please selecte any option!");
+      toast.error("Please selecte any option!");
       return;
     }
 
