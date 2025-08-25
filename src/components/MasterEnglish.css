@@ -193,6 +193,13 @@ figure img {
   .english-text p {
     font-size: 16px;
   }
+  .btn-free,
+  .btn-explore {
+    display: block;
+    margin: 10px 0;
+    max-width: 500px;
+    width: 50vw;
+  }
   .english-card {
     display: block;
     margin-bottom: 50px;
