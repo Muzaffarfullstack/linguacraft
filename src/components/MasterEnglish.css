@@ -198,5 +198,6 @@ figure img {
   .card {
     max-width: 350px;
     margin: 25px auto;
+    width: 90vw;
   }
 }
