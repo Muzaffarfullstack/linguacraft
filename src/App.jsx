@@ -8,7 +8,11 @@ import Contact from "./pages/contact/Contact";
 import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
 
+import { useGlobalContext } from "./hooks/useGlobalContext";
+import CourseDetail from "./pages/courses/CourseDetail";
+
 function App() {
+  const { user } = useGlobalContext();
   const routes = createBrowserRouter([
     {
       path: "/",
@@ -26,6 +30,10 @@ function App() {
         {
           path: "/courses/",
           element: <Courses />,
+        },
+        {
+          path: "/courses/:title",
+          element: <CourseDetail />,
         },
         {
           path: "/contact",

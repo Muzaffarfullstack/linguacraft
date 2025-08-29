@@ -2,14 +2,44 @@ import styles from "./Auth.module.css";
 import "../../index.css";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { useState } from "react";
+import { toast } from "sonner";
 
 function Signup() {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (
+      !firstName.trim() ||
+      !lastName.trim() ||
+      !email.trim() ||
+      !password.trim() ||
+      !confirmPassword.trim()
+    ) {
+      toast.error("Please fill all fields");
+      return;
+    }
+    console.log({ firstName, lastName, email, password, confirmPassword });
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setPassword("");
+    setConfirmPassword("");
+  };
+
   const { title } = useParams();
   document.title = "Join in LinguaCraft";
+
   return (
     <div className={styles.background}>
       <div className="container">
-        <form className={styles.form}>
+        <form className={styles.form} onSubmit={handleSubmit}>
           <h1>Join LinguaCraft</h1>
           <p>Start your English learning journey today</p>
           <div className={styles.formContainer}>
@@ -18,7 +48,12 @@ function Signup() {
                 <span className={styles.spaan}>First Name</span>
                 <label>
                   <img src="/assets/singleuser.png" alt="" />
-                  <input type="text" placeholder="First Name" />
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    onChange={(e) => setFirstName(e.target.value)}
+                    value={firstName}
+                  />
                 </label>
               </div>
 
@@ -26,7 +61,12 @@ function Signup() {
                 <span className={styles.spaan}>Last Name</span>
                 <label>
                   <img src="/assets/singleuser.png" alt="" />
-                  <input type="text" placeholder="Last Name" />
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    onChange={(e) => setLastName(e.target.value)}
+                    value={lastName}
+                  />
                 </label>
               </div>
             </div>
@@ -35,7 +75,12 @@ function Signup() {
               <span className={styles.spaan}>Email Address</span>
               <label className={styles.row}>
                 <img src="/assets/mail.png" alt="" />
-                <input type="text" placeholder="Enter your email" />
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                />
               </label>
             </div>
 
@@ -43,7 +88,12 @@ function Signup() {
               <span className={styles.spaan}>Password</span>
               <label className={styles.row}>
                 <img src="/assets/lock.png" alt="" />
-                <input type="password" placeholder="Create a password" />
+                <input
+                  type="password"
+                  placeholder="Create a password"
+                  onChange={(e) => setPassword(e.target.value)}
+                  value={password}
+                />
               </label>
             </div>
 
@@ -51,7 +101,12 @@ function Signup() {
               <span className={styles.spaan}>Confirm Password</span>
               <label className={styles.row}>
                 <img src="/assets/lock.png" alt="" />
-                <input type="password" placeholder="Confirm your password" />
+                <input
+                  type="password"
+                  placeholder="Confirm your password"
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  value={confirmPassword}
+                />
               </label>
             </div>
           </div>

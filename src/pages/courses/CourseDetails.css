@@ -1,0 +1,241 @@
+.courseDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 100vh;
+  scrollbar-width: 0;
+  -ms-overflow-style: none;
+}
+/* course content left side */
+.course-content {
+  max-height: 65vh;
+  width: 250px;
+  position: sticky;
+  top: 30%;
+  overflow: hidden;
+  padding: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.progress-stat {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+.course-progress-bar div {
+  width: 10%;
+  height: 7px;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  border-radius: 10px;
+}
+.course-progress-bar {
+  width: 100%;
+  height: 7px;
+  border-radius: 10px;
+  margin: 10px 0;
+  background: #e5e7eb;
+}
+/* accardion bar  */
+.accardionVisible {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 0;
+  background: transparent;
+  border: 2px solid #e5e7eb;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.accardionHide {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 0;
+  background: transparent;
+  border: 2px solid #e5e7eb;
+  cursor: pointer;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.accardionVisible span {
+  font-size: 14px;
+  color: #1f2937;
+}
+.accardionHide img {
+  width: 15px;
+  height: 15px;
+}
+.accardionClose {
+  border: 2px solid #e5e7eb;
+  border-top: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.accardionClose::-webkit-scrollbar {
+  width: 5px;
+}
+.themeContainer {
+  overflow-y: scroll;
+  max-height: 290px;
+}
+.openaccardion {
+  border: 0;
+  height: 0;
+  overflow-y: scroll;
+}
+
+.theme-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.accardionVisible span {
+  font-size: 14px;
+  color: #1f2937;
+}
+.accardionVisible img {
+  width: 15px;
+  height: 15px;
+}
+
+.accardion-theme__wrapper img {
+  width: 15px;
+  height: 15px;
+  margin: 22px 10px 0 0;
+}
+.accardion-theme {
+  font-size: 12px;
+  line-height: 25px;
+  margin: 15px 10px;
+  color: #4b5563;
+  font-weight: 550;
+}
+
+/* course video center */
+.courseContentWrapper {
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.course-video {
+  width: 600px;
+}
+.course-title {
+  font-size: 36px;
+  color: #1f2937;
+}
+.course-description {
+  font-size: 18px;
+  color: #4b5563;
+  line-height: 27px;
+  margin-top: 15px;
+}
+.course-content__pic,
+.lesson-details,
+.accardion-theme__wrapper {
+  display: flex;
+}
+.lesson-details {
+  margin: 15px 0;
+  gap: 50px;
+}
+.course-content__pic p {
+  color: #4b5563;
+}
+.course-content__pic img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.lesson-title {
+  font-size: 25px;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+.about-this-course {
+  box-shadow: -10px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  z-index: 10;
+  padding: 10px;
+  border-radius: 15px;
+}
+.about-this-course h1 {
+  font-size: 30px;
+  color: #1f2937;
+  margin: 15px 0;
+}
+.about-this-course p {
+  font-size: 18px;
+  color: #4b5563;
+  line-height: 25px;
+  margin: 15px 0;
+}
+.extra-advantage {
+  display: flex;
+  gap: 10px;
+  margin: 15px auto;
+}
+.extra-advantage-begin img {
+  width: 20px;
+  height: 20px;
+}
+/* right side */
+.course-info {
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 30%;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  max-height: 65vh;
+  padding: 15px;
+}
+.course-info h2 {
+  font-size: 20px;
+  color: #000000;
+  white-space: nowrap;
+}
+.right-side {
+  margin-top: 15px;
+}
+.course-content__figure {
+  display: flex;
+}
+.course-content__figure img {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.certificate-header {
+  display: flex;
+  padding: 20px;
+}
+.certificate-container {
+  width: 220px;
+  border: 2px solid #fef08a;
+  background: #fefce8;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.certificate-header img {
+  width: 20px;
+  margin-right: 10px;
+}
+.certificate-text {
+  padding: 20px;
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 20px;
+}
+.certificate-footer {
+  font-size: 13px;
+  white-space: nowrap;
+  padding: 20px 0;
+}

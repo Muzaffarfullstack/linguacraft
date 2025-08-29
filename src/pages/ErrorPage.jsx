@@ -91,7 +91,7 @@ function ErrorPage() {
             worry, even <br /> the best learners sometimes take a wrong turn!
           </p>
           <Link className="btn back-home" to="/">
-            <img src="assets/arrow-back.png" alt="logo" /> Back to Home
+            <img src="/assets/arrow-back.png" alt="logo" /> Back to Home
           </Link>
           <div className="action-container">
             <h3>Here's what you can do instead:</h3>

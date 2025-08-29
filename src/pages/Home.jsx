@@ -7,11 +7,15 @@ import Quiz from "../components/Quiz";
 import Reason from "../components/Reason";
 import Stats from "../components/Stats";
 import Trust from "../components/Trust";
+
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useCollection } from "../hooks/useCollection";
 
 function Home() {
   const { title } = useParams();
+  const { data } = useCollection("feedbacks");
+  // console.log(data);
 
   useEffect(() => {
     document.title = "LinguaCraft";

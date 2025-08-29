@@ -1,94 +1,635 @@
 {
-  "cards": [
+  "courses": [
     {
       "id": 1,
-      "img": "../assets/open-book.png",
-      "ratingImg": "../assets/rating.png",
-      "title": "English Grammar Fundamentals",
-      "instructor": "Dr. Sarah Johnson",
-      "description": "Master the basics of English grammar with interactive exercises and real-world examples.",
-      "duration": "6 weeks",
-      "lessons": 24,
-      "students": 15220,
-      "rating": 4.8,
-      "level": "Beginner",
-      "price": "Free",
-      "buttonText": "Start Course"
+      "courseTitle": "Vocabulary Builder",
+      "color": "linear-gradient(to right, #60a5fa , #a855f7 )",
+      "icon": "../assets/open-book.png",
+      "additionalDetails": {
+        "includes": [
+          {
+            "icon": "/assets/video.png",
+            "text": "12 hours on-demand video"
+          },
+          {
+            "icon": "/assets/document.png",
+            "text": "Downloadable resources"
+          },
+          {
+            "icon": "/assets/flash.png",
+            "text": "Interactive exercises"
+          },
+          {
+            "icon": "/assets/circular-target.png",
+            "text": "Lifetime access"
+          },
+          {
+            "icon": "/assets/badge.png",
+            "text": "Certificate of completion"
+          }
+        ],
+        "certificate": {
+          "icon": "/assets/yellowbadge.png",
+          "available": "Certificate Available",
+          "text": "Earn a certificate of completion after finishing all course modules.",
+          "progressText": "Complete 67% more to unlock"
+        }
+      },
+      "details": {
+        "description": "Expand your English vocabulary through practical lessons. This course is designed to help learners acquire new words and phrases.",
+        "duration": "6 weeks",
+        "timeIcon": "/assets/time.png",
+        "price": "$29",
+        "action": "Start Course",
+        "lessonIcon": "/assets/graybook.png",
+        "extraDescription": "This comprehensive English grammar course covers everything from basic sentence structure to advanced grammatical concepts. You'll learn through interactive lessons, practical exercises, and real-world examples that make grammar easy to understand and apply.",
+        "extraAdvantageIcon": "/assets/check-mark.png",
+        "advantages": [
+          "Master essential words and phrases",
+          "Expand academic vocabulary everyday",
+          "Learn word formation and usage",
+          "Improve accuracy in word choice",
+          "Build confidence in speaking and writing",
+          "Apply vocabulary in real-world contexts"
+        ],
+        "lessons": [
+          {
+            "id": 1,
+            "videoTitle": "English Vocabulary in 1 Hour",
+            "videoUrl": "https://www.youtube.com/embed/FNiJ8WbqYr4?si=6VKhrKY1LtdeOsFF"
+          },
+          {
+            "id": 2,
+            "videoTitle": "250 Important Vocabulary Words",
+            "videoUrl": "https://www.youtube.com/embed/-_W9DPT7NhM?si=ZTDIOKItjaA-z1hf"
+          },
+          {
+            "id": 3,
+            "videoTitle": "Daily Vocabulary Practice",
+            "videoUrl": "https://www.youtube.com/embed/F30R0tDIXP0?si=Rn5eTydo5ZOdADli"
+          },
+          {
+            "id": 4,
+            "videoTitle": "50 Daily Words You'll Use",
+            "videoUrl": "https://www.youtube.com/embed/CyoKhOgUZHU?si=zdQiP91T3QwOFLvO"
+          },
+          {
+            "id": 5,
+            "videoTitle": "600 Everyday Words",
+            "videoUrl": "https://www.youtube.com/embed/topBLaz4zgk?si=LcTt3JlAYqKv_KCE"
+          },
+          {
+            "id": 6,
+            "videoTitle": "Basic Vocabulary Playlist",
+            "videoUrl": "https://www.youtube.com/embed/md3HfH0SWOI?si=544nCxrf9LDnn7NB"
+          },
+          {
+            "id": 7,
+            "videoTitle": "Family Vocabulary",
+            "videoUrl": "https://www.youtube.com/embed/disSYNgNHPg?si=KGk7aLbQO0sh4yHw"
+          },
+          {
+            "id": 8,
+            "videoTitle": "Everyday Phrases",
+            "videoUrl": "https://www.youtube.com/embed/vLgHJOMo0FA?si=fBaWm-ODYsJrzlMY"
+          },
+          {
+            "id": 9,
+            "videoTitle": "Theme-based Vocabulary",
+            "videoUrl": "https://www.youtube.com/embed/wO_UT_TgOYg?si=dmesf1zEaIluTTib"
+          },
+          {
+            "id": 10,
+            "videoTitle": "Slang & Informal Words",
+            "videoUrl": "https://www.youtube.com/embed/7fMKxYBNCfc?si=MX_QyzaGbAlHpd_w"
+          }
+        ]
+      }
     },
     {
       "id": 2,
-      "img": "../assets/trophy-white.png",
-      "ratingImg": "../assets/rating.png",
-      "title": "Speaking Mastery",
-      "instructor": "Michael Chen",
-      "description": "Professional English skills for workplace communication, presentations, and meetings.",
-      "duration": "8 weeks",
-      "lessons": 32,
-      "students": 8750,
-      "rating": 4.9,
-      "level": "Intermediate",
-      "price": "$49",
-      "buttonText": "Start Course"
+      "courseTitle": "Grammar Fundamentals",
+      "color": "linear-gradient(to right, #4ade80  , #3b82f6  )",
+      "icon": "../assets/trophy-white.png",
+      "additionalDetails": {
+        "includes": [
+          {
+            "icon": "/assets/video.png",
+            "text": "12 hours on-demand video"
+          },
+          {
+            "icon": "/assets/document.png",
+            "text": "Downloadable resources"
+          },
+          {
+            "icon": "/assets/flash.png",
+            "text": "Interactive exercises"
+          },
+          {
+            "icon": "/assets/circular-target.png",
+            "text": "Lifetime access"
+          },
+          {
+            "icon": "/assets/badge.png",
+            "text": "Certificate of completion"
+          }
+        ],
+        "certificate": {
+          "icon": "/assets/yellowbadge.png",
+          "available": "Certificate Available",
+          "text": "Earn a certificate of completion after finishing all course modules.",
+          "progressText": "Complete 67% more to unlock"
+        }
+      },
+      "details": {
+        "description": "Learn English grammar step by step with clear explanations and examples. From basic sentence structures to essential tenses.",
+        "duration": "8 weeks",
+        "timeIcon": "/assets/time.png",
+        "price": "$49",
+        "action": "Start Course",
+        "lessonIcon": "/assets/graybook.png",
+        "extraAdvantageIcon": "/assets/check-mark.png",
+        "advantages": [
+          "Master all essential grammar rules",
+          "Understand sentence structure and syntax",
+          "Learn proper verb tenses and usage",
+          "Improve accuracy in writing and speaking",
+          "Build confidence in English communication",
+          "Apply grammar in real-world contexts"
+        ],
+        "lessons": [
+          {
+            "id": 1,
+            "videoTitle": "English Grammar for Beginners",
+            "videoUrl": "https://www.youtube.com/embed/QXVzmzhxWWc?si=K52q5b2WGeXQ-QBy"
+          },
+          {
+            "id": 2,
+            "videoTitle": "Improve Grammar in One Hour",
+            "videoUrl": "https://www.youtube.com/embed/qFKSRieKlM4?si=D7Tge2WRtDco6mmO"
+          },
+          {
+            "id": 3,
+            "videoTitle": "Basic English Grammar Course",
+            "videoUrl": "https://www.youtube.com/embed/TsYMJQEtpJU?si=27vAiWKTvUZK9F4x"
+          },
+          {
+            "id": 4,
+            "videoTitle": "Present Simple Tense",
+            "videoUrl": "https://www.youtube.com/embed/Z19NAX_gWxI?si=GlYNbXxM8nAO3GI6"
+          },
+          {
+            "id": 5,
+            "videoTitle": "Grammar 101: Basic Rules",
+            "videoUrl": "https://www.youtube.com/embed/PZvqsyS-mRg?si=4LjdcByBdgWoVFT2"
+          },
+          {
+            "id": 6,
+            "videoTitle": "Basic Grammar Made Easy",
+            "videoUrl": "https://www.youtube.com/embed/28vxXnY3PL4?si=HYrsYE9ezub_REUp"
+          },
+          {
+            "id": 7,
+            "videoTitle": "Grammar Course Learning Basics",
+            "videoUrl": "https://www.youtube.com/embed/6LFjVC3cHjI?si=PSjHDL4CKDxm5qKe"
+          },
+          {
+            "id": 8,
+            "videoTitle": "Grammar Rules for Beginners Playlist",
+            "videoUrl": "https://www.youtube.com/embed/jul2urONzOQ?si=rzZdPFvt7B2vEzIm"
+          },
+          {
+            "id": 9,
+            "videoTitle": "Teaching Grammar Tips",
+            "videoUrl": "https://www.youtube.com/embed/P-Lqj0ipGMU?si=4k-sT5_KNLlroG-5"
+          },
+          {
+            "id": 10,
+            "videoTitle": "How to Teach English to Beginners",
+            "videoUrl": "https://www.youtube.com/embed/bAe9nA0aW4s?si=gImxd7AdNye3gI9l"
+          }
+        ]
+      }
     },
     {
       "id": 3,
-      "img": "../assets/award.png",
-      "ratingImg": "../assets/rating.png",
-      "title": "IELTS Listening Course",
-      "instructor": "Emma Thompson",
-      "description": "Comprehensive preparation for all four IELTS sections with practice tests and strategies.",
-      "duration": "10 weeks",
-      "lessons": 40,
-      "students": 12300,
-      "rating": 4.7,
-      "level": "Intermediate",
-      "price": "$79",
-      "buttonText": "Start Course"
+      "courseTitle": "Listening Preparation ",
+      "color": "linear-gradient(to right, #c084fc, #ec4899)",
+      "icon": "../assets/award.png",
+      "additionalDetails": {
+        "includes": [
+          {
+            "icon": "/assets/video.png",
+            "text": "12 hours on-demand video"
+          },
+          {
+            "icon": "/assets/document.png",
+            "text": "Downloadable resources"
+          },
+          {
+            "icon": "/assets/flash.png",
+            "text": "Interactive exercises"
+          },
+          {
+            "icon": "/assets/circular-target.png",
+            "text": "Lifetime access"
+          },
+          {
+            "icon": "/assets/badge.png",
+            "text": "Certificate of completion"
+          }
+        ],
+        "certificate": {
+          "icon": "/assets/yellowbadge.png",
+          "available": "Certificate Available",
+          "text": "Earn a certificate of completion after finishing all course modules.",
+          "progressText": "Complete 67% more to unlock"
+        }
+      },
+      "details": {
+        "description": "Improve your English listening skills with real examples. This course uses authentic conversations to train different accents.",
+        "duration": "4 weeks",
+        "timeIcon": "/assets/time.png",
+        "price": "Free",
+        "action": "Start Course",
+        "lessonIcon": "/assets/graybook.png",
+        "extraAdvantageIcon": "/assets/check-mark.png",
+        "advantages": [
+          "Improve overall listening comprehension",
+          "Understand different English accents",
+          "Train to catch key words and details",
+          "Boost focus during conversations",
+          "Build confidence in real-life situations",
+          "Apply listening skills in exams and daily life"
+        ],
+        "lessons": [
+          {
+            "id": 1,
+            "videoTitle": "Intermediate Listening Practice",
+            "videoUrl": "https://www.youtube.com/embed/H8mRwu1gdbE?si=R4pqvs_tz0Ntjwm3"
+          },
+          {
+            "id": 2,
+            "videoTitle": "Listening Comprehension for B1/B2",
+            "videoUrl": "https://www.youtube.com/embed/wA27bVHcgEI?si=nZvMHXQr1t9B0_nI"
+          },
+          {
+            "id": 3,
+            "videoTitle": "Improve Your Listening",
+            "videoUrl": "https://www.youtube.com/embed/NKj2pwl7X5U?si=fCJMiK-tG1R1OYmU"
+          },
+          {
+            "id": 4,
+            "videoTitle": "Speak English Naturally in Any Situation",
+            "videoUrl": "https://www.youtube.com/watch?v=59SHHVXVMc4"
+          },
+          {
+            "id": 5,
+            "videoTitle": "Listening News & Conversations",
+            "videoUrl": "https://www.youtube.com/embed/xR7qcezLcXI?si=3DcD3C7PYDDRSNzs"
+          },
+          {
+            "id": 6,
+            "videoTitle": "English Listening Listening Practice",
+            "videoUrl": "https://www.youtube.com/embed/6PJnEdbq8qc?si=bykL0hHxCM3c45GQ"
+          },
+          {
+            "id": 7,
+            "videoTitle": "Everyday Conversation Listening",
+            "videoUrl": "https://www.youtube.com/embed/sMkzwmMs0jM?si=MowYN6kORK_iMmo5"
+          },
+          {
+            "id": 8,
+            "videoTitle": "Practice Speaking & Listening Together",
+            "videoUrl": "https://www.youtube.com/embed/iJztkfAupc0?si=qlajadcRnqfdFGHO"
+          },
+          {
+            "id": 9,
+            "videoTitle": "Advanced Conversation Practice",
+            "videoUrl": "https://www.youtube.com/embed/m8lLwZU9COg?si=IBV6L0c5J-1_R8bk"
+          },
+          {
+            "id": 10,
+            "videoTitle": "Extended Speaking & Listening",
+            "videoUrl": "https://www.youtube.com/embed/FFxbvib6aVw?si=UyKCXDj2PEtOJg35"
+          }
+        ]
+      }
     },
     {
       "id": 4,
-      "img": "../assets/chat.png",
-      "ratingImg": "../assets/rating.png",
-      "title": "English Writing",
-      "instructor": "James Wilson",
-      "description": "Build confidence in speaking English through interactive conversations and role-plays with native teachers.",
-      "duration": "4 weeks",
-      "lessons": 16,
-      "students": 9850,
-      "rating": 4.6,
-      "level": "Beginner",
-      "price": "$29",
-      "buttonText": "Start Course"
+      "courseTitle": "Native Speaking",
+      "color": "linear-gradient(to right, #facc15, #f97316)",
+      "icon": "../assets/chat.png",
+      "additionalDetails": {
+        "includes": [
+          {
+            "icon": "/assets/video.png",
+            "text": "12 hours on-demand video"
+          },
+          {
+            "icon": "/assets/document.png",
+            "text": "Downloadable resources"
+          },
+          {
+            "icon": "/assets/flash.png",
+            "text": "Interactive exercises"
+          },
+          {
+            "icon": "/assets/circular-target.png",
+            "text": "Lifetime access"
+          },
+          {
+            "icon": "/assets/badge.png",
+            "text": "Certificate of completion"
+          }
+        ],
+        "certificate": {
+          "icon": "/assets/yellowbadge.png",
+          "available": "Certificate Available",
+          "text": "Earn a certificate of completion after finishing all course modules.",
+          "progressText": "Complete 67% more to unlock"
+        }
+      },
+      "details": {
+        "description": "Practice speaking English with real-life situations. The course provides practical dialogues, role-play exercises, and tips for natural pronunciation. ",
+        "duration": "6 weeks",
+        "timeIcon": "/assets/time.png",
+        "price": "$39",
+        "action": "Start Course",
+        "lessonIcon": "/assets/graybook.png",
+        "extraAdvantageIcon": "/assets/check-mark.png",
+        "advantages": [
+          "Speak naturally with correct pronunciation",
+          "Practice real-life conversations",
+          "Improve fluency and confidence",
+          "Learn common expressions and phrases",
+          "Enhance interaction in daily situations",
+          "Develop native-like speaking style"
+        ],
+        "lessons": [
+          {
+            "id": 1,
+            "videoTitle": "Everyday Conversation Practice",
+            "videoUrl": "https://www.youtube.com/embed/fm6PtyM4qMw?si=y3hHEW5_7wF4IE3g"
+          },
+          {
+            "id": 2,
+            "videoTitle": "Practice English Speaking & Listening",
+            "videoUrl": "https://www.youtube.com/embed/O5rkrLzASHI?si=AbwVvbjYl5ZJ27_O"
+          },
+          {
+            "id": 3,
+            "videoTitle": "Advanced English Conversation",
+            "videoUrl": "https://www.youtube.com/embed/hCjPjoolzMs?si=WJqVWpYtjr9wJ6TF"
+          },
+          {
+            "id": 4,
+            "videoTitle": "Speak Naturally in Any Situation",
+            "videoUrl": "https://www.youtube.com/embed/SX2pdrg05MY?si=asAtFmw-LxBMQcgd"
+          },
+          {
+            "id": 5,
+            "videoTitle": "Practice Speaking With Me",
+            "videoUrl": "https://www.youtube.com/embed/ybUZJco3pnY?si=sIMN-uZ2Y2wCDhAK"
+          },
+          {
+            "id": 6,
+            "videoTitle": "Listening & Speaking Practice",
+            "videoUrl": "https://www.youtube.com/embed/7bt2LuA-M38?si=kBJ4G2os1qZL84gz"
+          },
+          {
+            "id": 7,
+            "videoTitle": "Everyday Topics Dialogue",
+            "videoUrl": "https://www.youtube.com/embed/71c6FmZwCW4?si=KOxs9fFuqmWi2_cr"
+          },
+          {
+            "id": 8,
+            "videoTitle": "Conversation & Pronunciation",
+            "videoUrl": "https://www.youtube.com/embed/PStVmVvP5fg?si=4GiW7YzZXiB24zUP"
+          },
+          {
+            "id": 9,
+            "videoTitle": "Daily English Speaking",
+            "videoUrl": "https://www.youtube.com/embed/ag3RnEaB3zM?si=i-Kjd7NfFc-zdgI8"
+          },
+          {
+            "id": 10,
+            "videoTitle": "Intermediate Speaking Practice",
+            "videoUrl": "https://www.youtube.com/embed/N6fE7ukKyd0?si=SMwGhXd-DTUnOG3j"
+          }
+        ]
+      }
     },
     {
       "id": 5,
-      "img": "../assets/target-white.png",
-      "ratingImg": "../assets/rating.png",
-      "title": "Advanced Reading",
-      "instructor": "Lisa Anderson",
-      "description": "Expand your vocabulary with advanced words, idioms,  for fluent communication.",
-      "duration": "5 weeks",
-      "lessons": 20,
-      "students": 6420,
-      "rating": 4.8,
-      "level": "Advanced",
-      "price": "$39",
-      "buttonText": "Start Course"
+      "courseTitle": "Reading Enhancer",
+      "color": "linear-gradient(to right, #f472b6 , #ef4444)",
+      "icon": "../assets/target-white.png",
+      "additionalDetails": {
+        "includes": [
+          {
+            "icon": "/assets/video.png",
+            "text": "12 hours on-demand video"
+          },
+          {
+            "icon": "/assets/document.png",
+            "text": "Downloadable resources"
+          },
+          {
+            "icon": "/assets/flash.png",
+            "text": "Interactive exercises"
+          },
+          {
+            "icon": "/assets/circular-target.png",
+            "text": "Lifetime access"
+          },
+          {
+            "icon": "/assets/badge.png",
+            "text": "Certificate of completion"
+          }
+        ],
+        "certificate": {
+          "icon": "/assets/yellowbadge.png",
+          "available": "Certificate Available",
+          "text": "Earn a certificate of completion after finishing all course modules.",
+          "progressText": "Complete 67% more to unlock"
+        }
+      },
+      "details": {
+        "description": "Improve your English reading comprehension skills. The lessons focus on strategies such as skimming, scanning.",
+        "duration": "5 weeks",
+        "timeIcon": "/assets/time.png",
+        "price": "$19",
+        "action": "Start Course",
+        "lessonIcon": "/assets/graybook.png",
+        "extraAdvantageIcon": "/assets/check-mark.png",
+        "advantages": [
+          "Improve reading comprehension skills",
+          "Learn skimming and scanning techniques",
+          "Understand main ideas and key details",
+          "Expand academic and general vocabulary",
+          "Develop faster reading strategies",
+          "Apply reading skills to real-world texts"
+        ],
+        "lessons": [
+          {
+            "id": 1,
+            "videoTitle": "Long-form Reading Practice",
+            "videoUrl": "https://www.youtube.com/embed/gFXE9n7hrOI?si=sV4EQKKqx7Q6Jwfw"
+          },
+          {
+            "id": 2,
+            "videoTitle": "News Article Reading",
+            "videoUrl": "https://www.youtube.com/embed/Qf6uZe4SDuY?si=jtZr1vPmr9_v43XV"
+          },
+          {
+            "id": 3,
+            "videoTitle": "Academic Text Reading",
+            "videoUrl": "https://www.youtube.com/embed/g8qatelVS7c?si=eKozd35cjk38YRIJ"
+          },
+          {
+            "id": 4,
+            "videoTitle": "Main Idea Reading",
+            "videoUrl": "https://www.youtube.com/embed/RoYwPjY-njc?si=6CEETzaTBi4ar14D"
+          },
+          {
+            "id": 5,
+            "videoTitle": "Detailed Reading",
+            "videoUrl": "https://www.youtube.com/embed/3nLX0CjMO-Q?si=vDP1-RaSaIU144Ks"
+          },
+          {
+            "id": 6,
+            "videoTitle": "Skimming Techniques",
+            "videoUrl": "https://www.youtube.com/embed/Kq6sfQsyE8s?si=39TlLxi4Mpcd2yvv"
+          },
+          {
+            "id": 7,
+            "videoTitle": "Scanning Techniques",
+            "videoUrl": "https://www.youtube.com/embed/Dy69pPGDeIg?si=dMQSWF8o1oAbXz1P"
+          },
+          {
+            "id": 8,
+            "videoTitle": "Instruction Reading",
+            "videoUrl": "https://www.youtube.com/embed/1VK6soGLulY?si=Zs-jjLzUJXZ3itzC"
+          },
+          {
+            "id": 9,
+            "videoTitle": "Dialogue Reading",
+            "videoUrl": "https://www.youtube.com/embed/hNuAv-42jzY?si=ymlbARZdOFhPTonN"
+          },
+          {
+            "id": 10,
+            "videoTitle": "Literature Reading",
+            "videoUrl": "https://www.youtube.com/embed/WRjsOU6mOp4?si=2uRUZQfPEKZhBnrF"
+          }
+        ]
+      }
     },
     {
       "id": 6,
-      "img": "../assets/chat.png",
-      "ratingImg": "../assets/rating.png",
-      "title": "Perfect General English",
-      "instructor": "David Brown",
-      "description": "Master English pronunciation with phonetics, stress patterns, and accent reduction techniques.",
-      "duration": "6 weeks",
-      "lessons": 24,
-      "students": 7890,
-      "rating": 4.7,
-      "level": "Intermediate",
-      "price": "$45",
-      "buttonText": "Start Course"
+      "courseTitle": " Writing",
+      "color": "linear-gradient(to right, #3b82f6 , #9333ea)",
+      "icon": "../assets/chat.png",
+      "additionalDetails": {
+        "includes": [
+          {
+            "icon": "/assets/video.png",
+            "text": "12 hours on-demand video"
+          },
+          {
+            "icon": "/assets/document.png",
+            "text": "Downloadable resources"
+          },
+          {
+            "icon": "/assets/flash.png",
+            "text": "Interactive exercises"
+          },
+          {
+            "icon": "/assets/circular-target.png",
+            "text": "Lifetime access"
+          },
+          {
+            "icon": "/assets/badge.png",
+            "text": "Certificate of completion"
+          }
+        ],
+        "certificate": {
+          "icon": "/assets/yellowbadge.png",
+          "available": "Certificate Available",
+          "text": "Earn a certificate of completion after finishing all course modules.",
+          "progressText": "Complete 67% more to unlock"
+        }
+      },
+      "details": {
+        "description": "Master English writing skills and improve step by step. This course covers  sentence and paragraph writing to essays and formal tasks.",
+        "duration": "7 weeks",
+        "timeIcon": "/assets/time.png",
+        "price": "$59",
+        "action": "Start Course",
+        "lessonIcon": "/assets/graybook.png",
+        "extraAdvantageIcon": "/assets/check-mark.png",
+        "advantages": [
+          "Master sentence and paragraph structure",
+          "Learn essay writing step by step",
+          "Improve formal and informal writing skills",
+          "Practice summarizing and note-taking",
+          "Develop clear and organized ideas",
+          "Build confidence in academic writing"
+        ],
+        "lessons": [
+          {
+            "id": 1,
+            "videoTitle": "Writing Sentences",
+            "videoUrl": "https://www.youtube.com/embed/N70D6xP0aQo?si=UsyLCav2WQpmGwOh"
+          },
+          {
+            "id": 2,
+            "videoTitle": "Paragraph Writing",
+            "videoUrl": "https://www.youtube.com/embed/0IFDuhdB2Hk?si=tHePTKrD5klb1D7J"
+          },
+          {
+            "id": 3,
+            "videoTitle": "Essay Writing",
+            "videoUrl": "https://www.youtube.com/embed/BObyE-TukNg?si=U-HLSdVzj3-iX0oT"
+          },
+          {
+            "id": 4,
+            "videoTitle": "Formal vs Informal Writing",
+            "videoUrl": "https://www.youtube.com/embed/zWyGx2-xiiQ?si=FAvJtmY2wJQp81-9"
+          },
+          {
+            "id": 5,
+            "videoTitle": "Email Writing",
+            "videoUrl": "https://www.youtube.com/embed/1XctnF7C74s?si=kmxXA1MRSYFjGlb3"
+          },
+          {
+            "id": 6,
+            "videoTitle": "Report Writing",
+            "videoUrl": "https://www.youtube.com/embed/CZnYQ0ZXA?si=eWqUenk7hYi40n3t"
+          },
+          {
+            "id": 7,
+            "videoTitle": "Creative Writing",
+            "videoUrl": "https://www.youtube.com/embed/pRBhZpdnAa8?si=xWmtW91qA1FHWewZ"
+          },
+          {
+            "id": 8,
+            "videoTitle": "Summarizing Texts",
+            "videoUrl": "https://www.youtube.com/embed/Z2OGUQ5A44Q?si=55qDqD-1SEdwk7Xb"
+          },
+          {
+            "id": 9,
+            "videoTitle": "Writing Tips",
+            "videoUrl": "https://www.youtube.com/embed/uVH2t_Ds1O8?si=RPlooT8UH68H1p4L"
+          },
+          {
+            "id": 10,
+            "videoTitle": "Story Writing",
+            "videoUrl": "https://www.youtube.com/embed/WYHrDyCMUmg?si=SOzkipTI6egqIlUt"
+          }
+        ]
+      }
     }
   ]
 }
