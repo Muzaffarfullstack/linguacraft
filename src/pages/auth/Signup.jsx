@@ -1,9 +1,9 @@
 import styles from "./Auth.module.css";
 import "../../index.css";
 import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { toast } from "sonner";
+import { useSignup } from "../../hooks/useSignup";
 
 function Signup() {
   const [firstName, setFirstName] = useState("");
@@ -11,6 +11,8 @@ function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+
+  const { signup } = useSignup();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,7 +27,7 @@ function Signup() {
       toast.error("Please fill all fields");
       return;
     }
-    console.log({ firstName, lastName, email, password, confirmPassword });
+    signup(firstName, lastName, email, password, confirmPassword);
     setFirstName("");
     setLastName("");
     setEmail("");
@@ -33,7 +35,7 @@ function Signup() {
     setConfirmPassword("");
   };
 
-  const { title } = useParams();
+  // const { title } = useParams();
   document.title = "Join in LinguaCraft";
 
   return (

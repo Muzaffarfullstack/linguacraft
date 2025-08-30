@@ -1,4 +1,8 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Navigate,
+} from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
@@ -10,9 +14,11 @@ import Signup from "./pages/auth/Signup";
 
 import { useGlobalContext } from "./hooks/useGlobalContext";
 import CourseDetail from "./pages/courses/CourseDetail";
+import ProtectedRoutes from "./components/ProtectedRoutes";
 
 function App() {
-  const { user } = useGlobalContext();
+  const { user, authReady } = useGlobalContext();
+  // console.log(user);
   const routes = createBrowserRouter([
     {
       path: "/",
@@ -33,7 +39,11 @@ function App() {
         },
         {
           path: "/courses/:title",
-          element: <CourseDetail />,
+          element: (
+            <ProtectedRoutes user={false}>
+              <CourseDetail />
+            </ProtectedRoutes>
+          ),
         },
         {
           path: "/contact",
@@ -51,7 +61,7 @@ function App() {
     },
   ]);
 
-  return <RouterProvider router={routes} />;
+  return <>{authReady && <RouterProvider router={routes} />}</>;
 }
 
 export default App;

@@ -2,9 +2,12 @@ import { useFetch } from "../../hooks/useFetch";
 import "../../index.css";
 import { Link } from "react-router-dom";
 import styles from "./Course.module.css";
+import { useGlobalContext } from "../../hooks/useGlobalContext";
+import { useState } from "react";
 
 function Cards() {
   const { data, isPending, error } = useFetch("/data/course.json");
+  const { user } = useGlobalContext();
 
   return (
     <div className="container">

@@ -1,15 +1,30 @@
 import styles from "./Auth.module.css";
 import "../../index.css";
 import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import { useState } from "react";
+import { useLogin } from "../../hooks/useLogin";
 
 function Login() {
-  const { title } = useParams();
   document.title = "Welcome back | LinguaCraft";
+  const [emailAddress, setEmailAddress] = useState("");
+  const [createdPassword, setCreatedPassword] = useState("");
+  const { login } = useLogin();
+
+  const logUserIn = (e) => {
+    e.preventDefault();
+    login(emailAddress, createdPassword);
+
+    setEmailAddress("");
+    setCreatedPassword("");
+  };
+
   return (
     <div className={styles.background}>
       <div className="container">
-        <form className={`${styles.form} ${styles.loginForm}`}>
+        <form
+          className={`${styles.form} ${styles.loginForm}`}
+          onSubmit={logUserIn}
+        >
           <h1>Welcome Back!</h1>
           <p>Sign in to continue your English learning journey</p>
 
@@ -18,7 +33,12 @@ function Login() {
               <span className={styles.spaan}>Email Address</span>
               <label className={styles.row}>
                 <img src="/assets/mail.png" alt="" />
-                <input type="text" placeholder="Enter your email" />
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  onChange={(e) => setEmailAddress(e.target.value)}
+                  value={emailAddress}
+                />
               </label>
             </div>
 
@@ -26,7 +46,12 @@ function Login() {
               <span className={styles.spaan}>Password</span>
               <label className={styles.row}>
                 <img src="/assets/lock.png" alt="" />
-                <input type="password" placeholder="Create a password" />
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  onChange={(e) => setCreatedPassword(e.target.value)}
+                  value={createdPassword}
+                />
               </label>
             </div>
 
@@ -45,7 +70,7 @@ function Login() {
 
           <p className={styles.foter}>
             Don't have an account ?{" "}
-            <Link to="login" className={styles.signIn}>
+            <Link to="/signup" className={styles.signIn}>
               Sign up for free
             </Link>
           </p>
