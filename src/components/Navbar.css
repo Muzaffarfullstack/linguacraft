@@ -28,6 +28,7 @@
   cursor: pointer;
   font-weight: 500;
 }
+
 .signUp {
   text-decoration: none;
   background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
@@ -153,6 +154,19 @@
   padding: 0;
   margin: 0;
 }
+.logout-2 {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 35px;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #9333ea);
+  transition: box-shadow 0.3s ease;
+}
+.drawer-buttons .logout-2:hover {
+  box-shadow: 0 4px 10px rgba(30, 58, 138, 0.4),
+    0 6px 20px rgba(59, 130, 246, 0.3), 0 8px 30px rgba(147, 51, 234, 0.25);
+}
 
 .drawer-links li a {
   color: #374151;
@@ -167,7 +181,7 @@
 .drawer-links li a:hover {
   background: #e0e7ff;
 }
-.drawer-buttons {
+.drawer-buttons div {
   margin-top: 1rem;
   display: flex;
   gap: 1rem;

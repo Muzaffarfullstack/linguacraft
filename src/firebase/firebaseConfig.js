@@ -1,6 +1,8 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth/web-extension";
+import { setLogLevel } from "firebase/firestore";
+setLogLevel("error"); // yoki "silent"
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -11,6 +13,7 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
+// console.log(firebaseConfig);
 
 export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);

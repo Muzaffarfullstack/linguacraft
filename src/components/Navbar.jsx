@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import "../index.css";
 import "./Navbar.css";
+import { useGlobalContext } from "../hooks/useGlobalContext";
+import { useLogout } from "../hooks/useLogout";
 
 import { useState } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  // console.log(nice);
+  const { user } = useGlobalContext();
+  const { logout } = useLogout();
 
   const openDrawer = () => {
     setIsOpen(true);
@@ -57,12 +60,24 @@ function Navbar() {
           </div>
 
           <div className="register-section">
-            <Link className="login" to="/login">
-              Login
-            </Link>
-            <Link className="signUp" to="/signup">
-              Sign Up
-            </Link>
+            <>
+              {!user && (
+                <div>
+                  <Link className="login" to="/login">
+                    Login
+                  </Link>
+                  <Link className="signUp" to="/signup">
+                    Sign Up
+                  </Link>
+                </div>
+              )}
+
+              {user && (
+                <div className="register-section">
+                  <Link className="login">Logout</Link>
+                </div>
+              )}
+            </>
 
             <div className="menu-section">
               <img
@@ -95,14 +110,44 @@ function Navbar() {
           </li>
         </ul>
 
-        <div className="drawer-buttons" onClick={closeDrawer}>
-          <Link className="login-1 drawer-btn" to="/login">
+        <div className="drawer-buttons">
+          {!user && (
+            <div onClick={closeDrawer}>
+              <Link className="login-1 drawer-btn" to="/login">
+                Login
+              </Link>
+              <Link className="signUp-2 drawer-btn" to="/signup">
+                Sign Up
+              </Link>
+            </div>
+          )}
+
+          {user && (
+            <div className="drawer-buttons" onClick={closeDrawer}>
+              <Link className="logout-2" onClick={logout}>
+                Logout
+              </Link>
+            </div>
+          )}
+        </div>
+
+        {/* <div className="drawer-buttons">
+          <Link
+            className="login-1 drawer-btn"
+            to="/login"
+            onClick={closeDrawer}
+          >
             Login
           </Link>
-          <Link className="signUp-2 drawer-btn" to="/signup">
+          <Link
+            className="signUp-2 drawer-btn"
+            to="/signup"
+            onClick={closeDrawer}
+          >
             Sign Up
           </Link>
-        </div>
+        </div> */}
+
         <button className="close-drawer" onClick={closeDrawer}>
           &times;
         </button>

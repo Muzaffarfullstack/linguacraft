@@ -2,8 +2,10 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase/firebaseConfig";
 import { useGlobalContext } from "./useGlobalContext";
 import { toast } from "sonner";
+import { useNavigate } from "react-router-dom";
 
 export const useLogin = () => {
+  const navigate = useNavigate();
   const { dispatch } = useGlobalContext();
   const login = (emailAddress, createdPassword) => {
     signInWithEmailAndPassword(auth, emailAddress, createdPassword)
@@ -11,6 +13,7 @@ export const useLogin = () => {
         const user = userCredential.user;
         dispatch({ type: "LOGIN", payload: user });
         toast.success("Welcome back!");
+        navigate("/");
       })
       .catch((error) => {
         const errorCode = error.code;

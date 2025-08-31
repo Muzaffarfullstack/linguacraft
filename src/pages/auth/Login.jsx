@@ -1,6 +1,6 @@
 import styles from "./Auth.module.css";
 import "../../index.css";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { useState } from "react";
 import { useLogin } from "../../hooks/useLogin";
 
