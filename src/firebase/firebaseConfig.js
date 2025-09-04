@@ -5,13 +5,13 @@ import { setLogLevel } from "firebase/firestore";
 setLogLevel("error"); // yoki "silent"
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyAAtzzIWv257UVDgn0FyykNWXGklUW-k7Y",
+  authDomain: "linguacraft-f231a.firebaseapp.com",
+  projectId: "linguacraft-f231a",
+  storageBucket: "linguacraft-f231a.firebasestorage.app",
+  messagingSenderId: "740245082649",
+  appId: "1:740245082649:web:3f381998bb9557e1261088",
+  measurementId: "G-4Y65HJ92JJ",
 };
 // console.log(firebaseConfig);
 
